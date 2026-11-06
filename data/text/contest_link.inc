@@ -1,14 +1,14 @@
 @ With the exception of Link standby, none of the below texts are used
 
 gTest_MissedTurn::
-	.string "Missed turn$"
+	.string "Zug ausgesetzt$"
 
 gText_LinkStandby4::
 	.string "Verbindung…$"
 
 gText_WinnerIsPlayersMonCongrats::
-	.string "The winner is {STR_VAR_1}'s {STR_VAR_2}!\n"
-	.string "Congratulations!$"
+	.string "Der Sieger ist {STR_VAR_2} von {STR_VAR_1}!\n"
+	.string "Herzlichen Glückwunsch!$"
 
 gText_WinnerIsPlayersMon::
 	.string "Gewinner: {STR_VAR_2} von {STR_VAR_1}!{PAUSE_UNTIL_PRESS}$"

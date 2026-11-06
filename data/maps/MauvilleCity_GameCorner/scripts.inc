@@ -780,8 +780,8 @@ MauvilleCity_GameCorner_Text_NotEnoughCoins:
 
 @ Unused
 MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor:
-	.string "There isn't any room available for\n"
-	.string "placing {STR_VAR_1}.$"
+	.string "Es ist kein Platz mehr für\n"
+	.string "{STR_VAR_1} frei.$"
 
 MauvilleCity_GameCorner_Text_OhIsThatSo:
 	.string "Oh, wirklich?\n"
@@ -796,7 +796,7 @@ MauvilleCity_GameCorner_Text_HereYouGo:
 
 @ Unused
 MauvilleCity_GameCorner_Text_CantCarryAnyMore:
-	.string "Oh, you can't carry any more than that.$"
+	.string "Oh, mehr kannst du nicht tragen.$"
 
 MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
 	.string "Ich habe mich vertan und zweimal die\n"

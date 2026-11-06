@@ -372,10 +372,10 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
-	.string "Oh, I'm sorry, but you appear to have\n"
-	.string "only one POKéMON with you.\p"
-	.string "You will need at least two POKéMON\n"
-	.string "to enter this event.$"
+	.string "Oh, es tut mir leid, aber du hast\n"
+	.string "nur ein POKéMON dabei.\p"
+	.string "Für die Teilnahme brauchst du\n"
+	.string "mindestens zwei POKéMON.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
 	.string "Hmm…\p"
@@ -421,10 +421,10 @@ TrainerHill_Roof_Text_ArriveZippierNextTime:
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
-	.string "I had the TRAINER HILL built for but\n"
-	.string "one reason and one only!\p"
-	.string "To find the most suitable partner\n"
-	.string "with whom I may form a tag team!$"
+	.string "Ich habe den TRAINERBERG nur aus\n"
+	.string "einem einzigen Grund bauen lassen!\p"
+	.string "Um den perfekten Partner zu finden,\n"
+	.string "mit dem ich ein Team bilden kann!$"
 
 TrainerHill_Entrance_Text_ChallengeTime:
 	.string "{STR_VAR_1} Min. {STR_VAR_2},{STR_VAR_3} Sek.$"

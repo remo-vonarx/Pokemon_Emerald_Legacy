@@ -313,24 +313,23 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:
-	.string "Congratulations for getting through\n"
-	.string "the 1st round.\p"
-	.string "The 2nd round is next.\n"
-	.string "Are you ready?$"
+	.string "Glückwunsch zum Sieg in der\n"
+	.string "1. Runde.\p"
+	.string "Als Nächstes folgt die 2. Runde.\n"
+	.string "Bist du bereit?$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals:
-	.string "Congratulations for advancing\n"
-	.string "to the semifinals.\p"
-	.string "The best four teams meet in this round.\n"
-	.string "Are you ready?$"
+	.string "Glückwunsch zum Einzug ins\n"
+	.string "Halbfinale.\p"
+	.string "Hier treffen die besten vier Teams\n"
+	.string "aufeinander. Bist du bereit?$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
-	.string "Congratulations for advancing\n"
-	.string "to the final match.\p"
-	.string "You're one win from the championship.\n"
-	.string "Are you ready?$"
+	.string "Glückwunsch zum Einzug ins Finale.\p"
+	.string "Nur noch ein Sieg bis zum Titel.\n"
+	.string "Bist du bereit?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
 	.string "Der nächste Gegner von {PLAYER} ist\n"

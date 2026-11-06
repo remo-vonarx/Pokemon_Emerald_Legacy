@@ -241,7 +241,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
 
 LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
 	.string "Hmmm…\n"
-	.string "What works of great magnificence…$"
+	.string "Welch großartige Werke…$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 	.string "Die Kämpfe mit POKéMON machen schon\n"

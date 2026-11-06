@@ -662,8 +662,8 @@ BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
-	.string "{PLAYER} returned everything that\n"
-	.string "the POKéMON held.$"
+	.string "{PLAYER} gibt alles zurück, was die\n"
+	.string "POKéMON getragen haben.$"
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
 	.string "Dein PYRABEUTEL wird hier von uns\n"
@@ -678,20 +678,20 @@ BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
-	.string "As a memento for conquering\n"
-	.string "the BATTLE PYRAMID, please take this.$"
+	.string "Zur Erinnerung an die Eroberung der\n"
+	.string "KAMPFPYRAMIDE nimm bitte dies.$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} erhält den Preis\n"
 	.string "{STR_VAR_1}.$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
 	.string "…Ah…\n"
-	.string "Your BAG appears to be filled.\p"
-	.string "Please return after you've organized\n"
-	.string "your BAG's contents.$"
+	.string "Dein BEUTEL scheint voll zu sein.\p"
+	.string "Bitte komm wieder, wenn du deinen\n"
+	.string "BEUTEL aufgeräumt hast.$"
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
 	.string "Das muss für dich enttäuschend sein…\p"
@@ -704,10 +704,9 @@ BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
-	.string "We have been looking forward to\n"
-	.string "your arrival!\p"
-	.string "Here is your prize for conquering\n"
-	.string "the PYRAMID.$"
+	.string "Wir haben dich schon erwartet!\p"
+	.string "Hier ist dein Preis für die\n"
+	.string "Eroberung der PYRAMIDE.$"
 
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
 	.string "Willkommen…\n"

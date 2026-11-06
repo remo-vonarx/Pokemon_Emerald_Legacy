@@ -56,22 +56,23 @@ VerdanturfTown_ContestHall_Text_WhichContestYouEntering:
 
 @ Unused
 VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
-	.string "I raised my POKéMON to be cute.\p"
-	.string "I found out you can put POKéMON in\n"
-	.string "a CONTEST for cuteness!\p"
-	.string "I'm so glad I raised my POKéMON with\n"
-	.string "loving care…$"
+	.string "Ich habe mein POKéMON so aufgezogen,\n"
+	.string "dass es niedlich ist.\p"
+	.string "Und dann habe ich erfahren, dass es\n"
+	.string "einen WETTBEWERB für Anmut gibt!\p"
+	.string "Wie gut, dass ich es so liebevoll\n"
+	.string "aufgezogen habe…$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_MyMonRules:
-	.string "My POKéMON rules!\p"
-	.string "It's cool, tough yet beautiful, cute,\n"
-	.string "and smart. It's complete!\p"
-	.string "I may as well go for wins in every\n"
-	.string "single CONTEST.$"
+	.string "Mein POKéMON ist der Hammer!\p"
+	.string "Es ist cool, stark, schön, süß und\n"
+	.string "klug. Es ist perfekt!\p"
+	.string "Da kann ich gleich bei jedem\n"
+	.string "WETTBEWERB auf Sieg gehen.$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_NormalRankStage:
-	.string "POKéMON CONTESTS\n"
-	.string "NORMAL RANK STAGE!$"
+	.string "POKéMON-WETTBEWERBE\n"
+	.string "BÜHNE DER NORMAL-KLASSE!$"
 

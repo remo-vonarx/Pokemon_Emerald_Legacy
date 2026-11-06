@@ -1337,8 +1337,8 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_1} you received?$"
+	.string "Möchtest du dem {STR_VAR_1}, das du\n"
+	.string "erhalten hast, einen Kosenamen geben?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "PROF. BIRK: Vergiss nicht! Dein\n"
@@ -1354,8 +1354,8 @@ LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
-	.string "Oh, you don't have any room for\n"
-	.string "this POKéMON.$"
+	.string "Oh, du hast keinen Platz für\n"
+	.string "dieses POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
 	.string "MAIKE: {PLAYER}{KUN}, jetzt…\n"

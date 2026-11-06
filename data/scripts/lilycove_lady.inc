@@ -655,8 +655,8 @@ LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize:
 
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY:
-	.string "{STR_VAR_1} received\n"
-	.string "one {STR_VAR_2}!$"
+	.string "{STR_VAR_1} erhält\n"
+	.string "{STR_VAR_2}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp:
 	.string "Dein BEUTEL ist voll. Schaffe Platz und\n"
@@ -703,8 +703,8 @@ LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizQuestion:
 
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizAnswer:
-	.string "Are you going to quit choosing\n"
-	.string "your quiz answer?$"
+	.string "Möchtest du die Wahl deiner\n"
+	.string "Quiz-Antwort abbrechen?$"
 
 LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger:
 	.string "Vielen Dank!\n"

@@ -4,7 +4,7 @@ gContestHallPaintingCaption::
 
 @ Unused
 gContestPaintingContest::
-	.string "CONTEST$"
+	.string "WETTBEWERB$"
 
 gContestRankNormal::
 	.string "NORMAL-KLASSE$"

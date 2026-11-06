@@ -22,7 +22,7 @@ CableClub_Text_RecordCornerUsingLinkCable::
 
 @ Unused
 CableClub_Text_CloseThisMenu:
-	.string "Close this menu.$"
+	.string "Dieses Menü schließen.$"
 
 CableClub_Text_NeedTwoMonsForDoubleBattle:
 	.string "Für einen DOPPELKAMPF brauchst du\n"
@@ -56,8 +56,8 @@ gText_AwaitingLinkup::
 
 @ Unused
 CableClub_Text_OkayToSaveProgress::
-	.string "Your progress must be saved before\n"
-	.string "linking. Is it okay to save?$"
+	.string "Vor der Verbindung muss dein Spiel\n"
+	.string "gespeichert werden. In Ordnung?$"
 
 CableClub_Text_PleaseEnter:
 	.string "Bitte eintreten.$"
@@ -186,11 +186,11 @@ CableClub_Text_ParticipantsStepUpToCounter:
 
 @ Unused
 CableClub_Text_Hello:
-	.string "Hello!$"
+	.string "Hallo!$"
 
 @ Unused
 CableClub_Text_PleaseWait:
-	.string "Please wait.$"
+	.string "Bitte warten.$"
 
 CableClub_Text_YouMayTradeHere::
 	.string "Hier kannst du mit deinen Freunden\n"
@@ -210,19 +210,19 @@ CableClub_Text_CanMixRecords::
 
 @ Unused
 CableClub_Text_GuideToVariousServices:
-	.string "A guide to the WIRELESS CLUB's\n"
-	.string "various services.$"
+	.string "Eine Anleitung zu den Diensten des\n"
+	.string "DRAHTLOSKLUBs.$"
 
 CableClub_Text_CancelSelectedItem::
 	.string "Widerruft das MENÜ.$"
 
 @ Unused
 CableClub_Text_WhichBattleMode:
-	.string "Which battle mode would you like?$"
+	.string "Welchen Kampfmodus möchtest du?$"
 
 @ Unused
 CableClub_Text_ReturnsToPreviousStep:
-	.string "Returns to the previous step.$"
+	.string "Zurück zum vorherigen Schritt.$"
 
 CableClub_Text_NeedBerryForBerryCrush:
 	.string "Um die BEERENMÜHLE benutzen\n"
@@ -250,7 +250,7 @@ CableClub_Text_UnionRoomAdapterNotConnected:
 @ Unused
 CableClub_Text_OhExcuseMe:
 	.string "Oh…\n"
-	.string "Excuse me!$"
+	.string "Entschuldigung!$"
 
 CableClub_Text_PlayerIsWaiting:
 	.string "Es scheint, als ob {STR_VAR_1} gerade\n"
@@ -323,8 +323,8 @@ MossdeepCity_GameCorner_1F_Text_AllGoodToGo:
 
 @ Unused
 MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain:
-	.string "Are you leaving now?\n"
-	.string "Do come again!$"
+	.string "Du gehst schon?\n"
+	.string "Komm bald wieder!$"
 
 MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
 	.string "Es scheint, dass keines deiner\n"
@@ -348,8 +348,8 @@ MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
 
 @ Unused
 MossdeepCity_GameCorner_1F_Text_RetryPlease:
-	.string "Could you retry this from the start\n"
-	.string "again, please?$"
+	.string "Könntest du es bitte noch einmal\n"
+	.string "von vorne versuchen?$"
 
 CableClub_Text_WelcomeWhichDirectCornerRoom:
 	.string "Willkommen im POKéMON\n"

@@ -187,7 +187,8 @@ MossdeepCity_StevensHouse_Text_ObtainedBeldum:
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
-	.string "There is no space for another POKéMON.$"
+	.string "Du hast keinen Platz für ein weiteres\n"
+	.string "POKéMON.$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
 	.string "{PLAYER} legt den POKéBALL zurück.$"

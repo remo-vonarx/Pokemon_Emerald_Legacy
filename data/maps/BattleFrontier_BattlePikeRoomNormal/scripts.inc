@@ -671,30 +671,30 @@ BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
 @ Possibly replaced/superseded by the hard battle room, which is the same but the battle isnt optional
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons:
-	.string "Excuse me…\p"
-	.string "Would you care for a battle?\n"
-	.string "I'll restore your POKéMON if you win.$"
+	.string "Entschuldige…\p"
+	.string "Hättest du Lust auf einen Kampf?\n"
+	.string "Gewinnst du, heile ich deine POKéMON.$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe:
-	.string "Very well…\n"
-	.string "Now, shall we?$"
+	.string "Sehr schön…\n"
+	.string "Wollen wir beginnen?$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
-	.string "I see…\n"
-	.string "How unsporting of you…$"
+	.string "Verstehe…\n"
+	.string "Wie unsportlich von dir…$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
-	.string "Magnificent…\p"
-	.string "As promised, I shall restore your\n"
-	.string "POKéMON to full health.$"
+	.string "Großartig…\p"
+	.string "Wie versprochen heile ich deine\n"
+	.string "POKéMON vollständig.$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
-	.string "The best of luck to you.\n"
-	.string "Farewell.$"
+	.string "Ich wünsche dir viel Glück.\n"
+	.string "Leb wohl.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
 	.string "Oh je!\p"
@@ -748,8 +748,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
 	.string "POKéMON geht es gut.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence:
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "… … … … …\n"
+	.string "…\l"
+	.string "… … … … …\l"
+	.string "…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
 	.string "Willkommen…\p"
@@ -845,11 +847,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
-	.string "I welcome you…\p"
-	.string "Giggle…\n"
-	.string "You should thank your lucky stars…\p"
-	.string "Since you have chosen this room,\n"
-	.string "all your POKéMON will be restored…$"
+	.string "Willkommen…\p"
+	.string "Kicher…\n"
+	.string "Du kannst von Glück reden…\p"
+	.string "Da du diesen Raum gewählt hast,\n"
+	.string "werden alle deine POKéMON geheilt…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
 	.string "Ich werde unsere Meisterin rufen…$"

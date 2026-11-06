@@ -466,8 +466,8 @@ BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
-	.string "For the feat of your 7-win streak,\n"
-	.string "we present you with Battle Point(s).$"
+	.string "Für deine 7 Siege in Folge erhältst\n"
+	.string "du Gewinnpunkte.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "Du hast keinen Platz für den Preis?\p"
@@ -490,7 +490,7 @@ BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} erhält den Preis\n"
 	.string "{STR_VAR_1}.$"
 
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:

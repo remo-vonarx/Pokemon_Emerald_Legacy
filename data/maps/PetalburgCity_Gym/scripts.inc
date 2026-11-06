@@ -1601,8 +1601,8 @@ PetalburgCity_Gym_Text_EnterSpeedRoom:
 
 @ Unused
 PetalburgCity_Gym_Text_DoorAppearsLocked2:
-	.string "This door appears to be locked\n"
-	.string "right now…$"
+	.string "Die Tür scheint im Moment\n"
+	.string "verschlossen zu sein…$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
 	.string "“RAUM der GENAUIGKEIT” steht\n"

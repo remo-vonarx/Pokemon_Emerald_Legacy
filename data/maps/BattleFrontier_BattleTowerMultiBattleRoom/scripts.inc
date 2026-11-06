@@ -470,33 +470,33 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
-	.string "The 2nd set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "Das 2. Gegnerpaar ist an der Reihe.\n"
+	.string "Gib dein Bestes!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext:
-	.string "The 3rd set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "Das 3. Gegnerpaar ist an der Reihe.\n"
+	.string "Gib dein Bestes!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext:
-	.string "The 4th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "Das 4. Gegnerpaar ist an der Reihe.\n"
+	.string "Gib dein Bestes!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext:
-	.string "The 5th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "Das 5. Gegnerpaar ist an der Reihe.\n"
+	.string "Gib dein Bestes!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext:
-	.string "The 6th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "Das 6. Gegnerpaar ist an der Reihe.\n"
+	.string "Gib dein Bestes!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
-	.string "The 7th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "Das 7. Gegnerpaar ist an der Reihe.\n"
+	.string "Gib dein Bestes!$"
 
 gText_LinkStandby3::
 	.string "Verbindung wird gehalten…$"

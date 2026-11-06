@@ -60,7 +60,7 @@ Roulette_Text_BoardWillBeCleared::
 
 @ Unused
 Roulette_Text_YouDontHaveACoinCase::
-	.string "You don't have a COIN CASE.$"
+	.string "Du hast keinen MÜNZKORB.$"
 
 Roulette_Text_CoinCaseIsFull::
 	.string "Dein MÜNZKORB ist voll! MÜNZEn können\n"

@@ -346,8 +346,8 @@ gText_MonHasntMadeItsAppeal::
 
 @ Unused
 gText_AnticipationSwelledForMonsAppealNext2::
-	.string "Anticipation swelled for\n"
-	.string "{STR_VAR_1}'s appeal next.$"
+	.string "Heiß ersehnt: Der Aus-\n"
+	.string "druck von {STR_VAR_1}.$"
 
 gText_EmptyContestString::
 	.string "$"
@@ -752,7 +752,7 @@ gText_Contest_Toughness::
 
 @ Unused
 gText_Tension::
-	.string "TENSION$"
+	.string "SPANNUNG$"
 
 gText_CoolMove::
 	.string "COOLE Att.$"

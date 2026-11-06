@@ -445,20 +445,20 @@ BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
-	.string "In commemoration of your 7-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "Zur Erinnerung an deine 7 Siege in Folge\n"
+	.string "überreichen wir dir diesen Preis.$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} erhält den Preis\n"
 	.string "{STR_VAR_1}.$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
 	.string "Oh?\n"
-	.string "Your BAG seems to be full.\p"
-	.string "I urge you to clear space and\n"
-	.string "return for your prize.$"
+	.string "Dein BEUTEL ist voll.\p"
+	.string "Bitte schaffe Platz und hole dir\n"
+	.string "später deinen Preis ab.$"
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
 	.string "Vielen Dank für die Teilnahme!\p"

@@ -41,9 +41,9 @@ FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge:
 
 @ Unused
 FallarborTown_BattleTentLobby_Text_WhichLevelMode:
-	.string "We offer two levels of challenge,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "Wir bieten zwei Stufen an: Level 50\n"
+	.string "und Offene Kämpfe.\l"
+	.string "Wofür entscheidest du dich?$"
 
 FallarborTown_BattleTentLobby_Text_SelectThreeMons:
 	.string "Sehr schön! Dann bestimme jetzt bitte\n"
@@ -157,9 +157,9 @@ VerdanturfTown_BattleTentLobby_Text_ReturnFortified:
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_WhichLevelMode:
-	.string "There are two levels of difficulty,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice of a challenge?$"
+	.string "Es gibt zwei Schwierigkeitsstufen:\n"
+	.string "Level 50 und Offene Kämpfe.\l"
+	.string "Welche Herausforderung wählst du?$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50:
 	.string "Seufz…\p"
@@ -246,8 +246,8 @@ SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit:
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_WhichLevelMode:
-	.string "Which level do you wish to challenge?\n"
-	.string "Level 50 or Level 100?$"
+	.string "Welche Stufe möchtest du wählen?\n"
+	.string "Level 50 oder Level 100?$"
 
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge:
 	.string "Bevor du dich der Herausforderung\n"
@@ -255,8 +255,8 @@ SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge:
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping:
-	.string "Okay, I will hold your POKéMON for\n"
-	.string "safekeeping while you compete.$"
+	.string "Gut, ich verwahre deine POKéMON,\n"
+	.string "solange du antrittst.$"
 
 SlateportCity_BattleTentLobby_Text_StepThisWay:
 	.string "Bitte hier entlang.$"
@@ -270,8 +270,8 @@ SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults:
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals:
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.$"
+	.string "Ich gebe dir deine POKéMON zurück und\n"
+	.string "nehme die Leih-POKéMON wieder an mich.$"
 
 SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons:
 	.string "Herzlichen Glückwunsch!\n"
@@ -304,20 +304,21 @@ SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting:
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnPersonalMons:
-	.string "We'll return your personal POKéMON.$"
+	.string "Wir geben dir nun deine POKéMON zurück.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} erhält den Preis\n"
 	.string "{STR_VAR_1}.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_RulesAreListed:
-	.string "The Battle Swap rules are listed.$"
+	.string "Hier stehen die Regeln für\n"
+	.string "den Wechselkampf.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Welches Thema möchtest du lesen?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules:
 	.string "In einem Wechselkampf darfst du\n"
@@ -359,68 +360,66 @@ SlateportCity_BattleTentLobby_Text_ExplainMonRules:
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2:
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "Hier stehen die Regeln des\n"
+	.string "WIESENFLUR KAMPFCAMPs.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Welches Thema möchtest du lesen?$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules:
-	.string "Here at the VERDANTURF BATTLE TENT,\n"
-	.string "POKéMON are required to think and\l"
-	.string "battle by themselves.\p"
-	.string "Unlike in the wild, POKéMON that live\n"
-	.string "with people behave differently\l"
-	.string "depending on their nature.$"
+	.string "Im KAMPFCAMP von WIESENFLUR müssen\n"
+	.string "POKéMON selbst denken und kämpfen.\p"
+	.string "Anders als in der Wildnis verhalten\n"
+	.string "sich POKéMON, die bei Menschen leben,\l"
+	.string "je nach Wesen unterschiedlich.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules:
-	.string "Depending on its nature, a POKéMON\n"
-	.string "may prefer to attack no matter what.\p"
-	.string "Another POKéMON may prefer to protect\n"
-	.string "itself from any harm.\p"
-	.string "Yet another may enjoy vexing or\n"
-	.string "confounding its foes.\p"
-	.string "Depending on its nature, a POKéMON\n"
-	.string "will have favorite moves that it is good\l"
-	.string "at using.\p"
-	.string "It may also dislike certain moves that\n"
-	.string "it has trouble using.$"
+	.string "Je nach Wesen greift ein POKéMON\n"
+	.string "vielleicht um jeden Preis an.\p"
+	.string "Ein anderes schützt sich lieber\n"
+	.string "vor jedem Schaden.\p"
+	.string "Wieder ein anderes ärgert oder\n"
+	.string "verwirrt gerne seine Gegner.\p"
+	.string "Je nach Wesen hat ein POKéMON\n"
+	.string "Lieblingsattacken, die es gut\l"
+	.string "einsetzen kann.\p"
+	.string "Es kann auch Attacken ablehnen, die\n"
+	.string "ihm schwerfallen.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules:
-	.string "There are offensive moves that inflict\n"
-	.string "direct damage on the foe.\p"
-	.string "There are defensive moves that are\n"
-	.string "used to prepare for enemy attacks or\l"
-	.string "used to heal HP and so on.\p"
-	.string "There are also other somewhat-odd\n"
-	.string "moves that may enfeeble the foes with\l"
-	.string "stat problems including poison and \l"
-	.string "paralysis.\p"
-	.string "POKéMON will consider using moves in\n"
-	.string "these three categories.$"
+	.string "Es gibt Offensiv-Attacken, die dem\n"
+	.string "Gegner direkt Schaden zufügen.\p"
+	.string "Es gibt Defensiv-Attacken, mit denen\n"
+	.string "sich POKéMON auf Angriffe vorbereiten\l"
+	.string "oder KP heilen.\p"
+	.string "Außerdem gibt es etwas seltsamere\n"
+	.string "Attacken, die Gegner schwächen, etwa\l"
+	.string "durch Gift oder Paralyse.\p"
+	.string "POKéMON wählen ihre Attacken aus\n"
+	.string "diesen drei Gruppen.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules:
-	.string "When not under command by its TRAINER,\n"
-	.string "a POKéMON may be unable to effectively\l"
-	.string "use certain moves.\p"
-	.string "A POKéMON is not good at using any\n"
-	.string "move that it dislikes.\p"
-	.string "If a POKéMON only knows moves that\n"
-	.string "do not match its nature, it will often\l"
-	.string "be unable to live up to its potential.$"
+	.string "Ohne Befehle seines TRAINERs kann ein\n"
+	.string "POKéMON manche Attacken vielleicht\l"
+	.string "nicht wirksam einsetzen.\p"
+	.string "Attacken, die es nicht mag, setzt ein\n"
+	.string "POKéMON nicht gut ein.\p"
+	.string "Kennt ein POKéMON nur Attacken, die\n"
+	.string "nicht zu seinem Wesen passen, kann es\l"
+	.string "sein Können oft nicht entfalten.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules:
-	.string "Depending on its nature, a POKéMON may\n"
-	.string "start using moves that don't match its\l"
-	.string "nature when it is in trouble.\p"
-	.string "If a POKéMON begins behaving oddly\n"
-	.string "in a pinch, watch it carefully.$"
+	.string "Je nach Wesen kann ein POKéMON in\n"
+	.string "Not Attacken einsetzen, die nicht zu\l"
+	.string "seinem Wesen passen.\p"
+	.string "Verhält sich ein POKéMON in Not\n"
+	.string "seltsam, behalte es gut im Auge.$"
 
 BattleTentLobby_Text_ExplainLevelRules:
 	.string "In diesem KAMPFCAMP werden die Level\n"

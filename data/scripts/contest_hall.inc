@@ -1391,9 +1391,9 @@ LilycoveCity_ContestLobby_Text_ContestReception:
 
 @ Unused
 LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:
-	.string "Hello!\p"
-	.string "This reception counter is only\n"
-	.string "for 4-player POKéMON CONTESTS.$"
+	.string "Hallo!\p"
+	.string "Dieser Schalter ist nur für POKéMON-\n"
+	.string "WETTBEWERBE mit 4 Spielern.$"
 
 LilycoveCity_ContestLobby_Text_EnterContest1:
 	.string "Soll eines deiner POKéMON an einem der\n"
@@ -1594,11 +1594,12 @@ ContestHall_Text_PickUpPrizeAtCounterLater:
 
 @ Unused
 ContestHall_Text_OnlyRegister4Players:
-	.string "I only register four players for\n"
-	.string "POKéMON CONTESTS.\p"
-	.string "If three other players link up, all\n"
-	.string "four may enter the same CONTEST.\p"
-	.string "Would you like to take part?$"
+	.string "Ich melde nur vier Spieler für\n"
+	.string "POKéMON-WETTBEWERBE an.\p"
+	.string "Wenn sich drei andere Spieler\n"
+	.string "verbinden, können alle vier am\l"
+	.string "selben WETTBEWERB teilnehmen.\p"
+	.string "Möchtest du teilnehmen?$"
 
 LilycoveCity_ContestLobby_Text_ProgressWillBeSaved:
 	.string "Bevor du an einem WETTBEWERB teil-\n"
@@ -1610,27 +1611,30 @@ LilycoveCity_ContestLobby_Text_ParticipateAnotherTime:
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterContest2:
-	.string "Would you like to enter a CONTEST?$"
+	.string "Möchtest du an einem WETTBEWERB\n"
+	.string "teilnehmen?$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_Explain4PlayerContest:
-	.string "When four players are ready, connect\n"
-	.string "over a Game Link cable, and register\l"
-	.string "with me, please.\p"
-	.string "Please choose the same CONTEST\n"
-	.string "as your fellow contestants.\p"
-	.string "The CONTEST begins as soon as all\n"
-	.string "players register their entry.\p"
-	.string "After that, the usual CONTEST rules\n"
-	.string "apply.$"
+	.string "Wenn vier Spieler bereit sind, verbindet\n"
+	.string "euch per Game Link-Kabel und meldet\l"
+	.string "euch bitte bei mir an.\p"
+	.string "Bitte wählt denselben WETTBEWERB\n"
+	.string "wie eure Mitspieler.\p"
+	.string "Der WETTBEWERB beginnt, sobald alle\n"
+	.string "Spieler angemeldet sind.\p"
+	.string "Danach gelten die üblichen\n"
+	.string "WETTBEWERBS-Regeln.$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterWhichContest2:
-	.string "Which CONTEST would you like to enter?$"
+	.string "An welchem WETTBEWERB möchtest du\n"
+	.string "teilnehmen?$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon2:
-	.string "Which POKéMON would you like to enter?$"
+	.string "Mit welchem POKéMON möchtest du\n"
+	.string "teilnehmen?$"
 
 LilycoveCity_ContestLobby_Text_Transmitting:
 	.string "Übertragung… $"
@@ -1652,13 +1656,13 @@ LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel:
 
 @ Unused
 LilycoveCity_ContestLobby_Text_ParticipateAnotherTime2:
-	.string "We hope you will participate another\n"
-	.string "time.$"
+	.string "Wir hoffen, du nimmst ein anderes\n"
+	.string "Mal teil.$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain:
-	.string "Transmission error.\n"
-	.string "Please try again.$"
+	.string "Übertragungsfehler.\n"
+	.string "Bitte versuche es erneut.$"
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX:
 	.string "Dein POKéMON wird an dem WETTBEWERB\n"

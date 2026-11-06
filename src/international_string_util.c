@@ -88,6 +88,32 @@ void CopyMonCategoryText(int dexNum, u8 *dest)
     StringCopy(dest, gPokedexEntries[dexNum].categoryName);
 }
 
+// Writes format to dest with each placeholder replaced by str. str may be dest itself.
+u8 *StringCopyWithPlaceholder(u8 *dest, const u8 *format, const u8 *str)
+{
+    u8 buffer[32];
+    u8 c;
+
+    StringCopyN(buffer, str, ARRAY_COUNT(buffer) - 1);
+    buffer[ARRAY_COUNT(buffer) - 1] = EOS;
+
+    while ((c = *format++) != EOS)
+    {
+        if (c == PLACEHOLDER_BEGIN)
+        {
+            format++;
+            dest = StringCopy(dest, buffer);
+        }
+        else
+        {
+            *dest++ = c;
+        }
+    }
+
+    *dest = EOS;
+    return dest;
+}
+
 u8 *GetStringClearToWidth(u8 *dest, int fontId, const u8 *str, int totalStringWidth)
 {
     u8 *buffer;

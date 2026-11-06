@@ -360,16 +360,16 @@ BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-	.string "To commemorate your completion of\n"
-	.string "the Battle Choice challenge, we award\l"
-	.string "you these Battle Point(s)…$"
+	.string "Für den Abschluss der Herausforderung\n"
+	.string "überreichen wir dir diese\l"
+	.string "Gewinnpunkte…$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
-	.string "You appear to have reached the limit\n"
-	.string "for Battle Points…\p"
-	.string "Please exchange some Battle Points\n"
-	.string "for prizes, then return…$"
+	.string "Du scheinst das Maximum an\n"
+	.string "Gewinnpunkten erreicht zu haben…\p"
+	.string "Bitte tausche einige Gewinnpunkte\n"
+	.string "gegen Preise ein und komm wieder…$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
 	.string "Ich bitte vielmals um Entschuldigung,\n"
@@ -409,11 +409,11 @@ BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
-	.string "What is this weird place?\n"
-	.string "I can't figure it out at all!\p"
-	.string "I've taken the challenge a bunch\n"
-	.string "of times, but all I ever do is run into\l"
-	.string "TRAINERS whichever path I choose.$"
+	.string "Was ist das nur für ein seltsamer Ort?\n"
+	.string "Ich werde daraus nicht schlau!\p"
+	.string "Ich war schon oft hier, aber egal,\n"
+	.string "welchen Weg ich nehme, ich treffe\l"
+	.string "immer nur auf TRAINER.$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
 	.string "Die Regeln der Kampfbahn hängen\n"
