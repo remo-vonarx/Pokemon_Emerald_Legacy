@@ -692,16 +692,16 @@ static const u8 sAlphabetGroupIdMap[NUM_ALPHABET_ROWS][NUM_ALPHABET_COLUMNS] = {
 
 static const u16 sMysteryGiftPhrase[NUM_QUESTIONNAIRE_WORDS] = {
     EC_WORD_LINK,
-    EC_WORD_TOGETHER,
     EC_WORD_WITH,
     EC_WORD_ALL,
+    EC_WORD_TOGETHER,
 };
 
 static const u16 sBerryMasterWifePhrases[][2] = {
-    [PHRASE_GREAT_BATTLE - 1]        = {EC_WORD_GREAT, EC_WORD_BATTLE},
-    [PHRASE_CHALLENGE_CONTEST - 1]   = {EC_WORD_CHALLENGE, EC_WORD_CONTEST},
-    [PHRASE_OVERWHELMING_LATIAS - 1] = {EC_WORD_OVERWHELMING, EC_POKEMON(LATIAS)},
-    [PHRASE_COOL_LATIOS - 1]         = {EC_WORD_COOL, EC_POKEMON(LATIOS)},
+    [PHRASE_GREAT_BATTLE - 1]        = {EC_WORD_GREAT, EC_WORD_FIGHT},
+    [PHRASE_CHALLENGE_CONTEST - 1]   = {EC_WORD_CONTEST, EC_WORD_CHALLENGE},
+    [PHRASE_OVERWHELMING_LATIAS - 1] = {EC_POKEMON(LATIAS), EC_WORD_OVERWHELMING},
+    [PHRASE_COOL_LATIOS - 1]         = {EC_POKEMON(LATIOS), EC_WORD_COOL},
     [PHRASE_SUPER_HUSTLE - 1]        = {EC_WORD_SUPER, EC_WORD_HUSTLE},
 };
 
@@ -1239,9 +1239,9 @@ static const u8 *const sEasyChatGroupNamePointers[EC_NUM_GROUPS] = {
 
 static const u16 sDefaultProfileWords[EASY_CHAT_BATTLE_WORDS_COUNT - 2] = {
     EC_WORD_I_AM,
-    EC_WORD_A,
+    EC_WORD_BIG,
+    EC_WORD_IN,
     EC_WORD_POKEMON,
-    EC_WORD_FRIEND,
 };
 
 static const u16 sDefaultBattleStartWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
@@ -1255,18 +1255,18 @@ static const u16 sDefaultBattleStartWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
 
 static const u16 sDefaultBattleWonWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
     EC_WORD_YAY,
-    EC_WORD_YAY,
     EC_WORD_EXCL_EXCL,
+    EC_WORD_YUP,
     EC_WORD_I_VE,
     EC_WORD_WON,
     EC_WORD_EXCL_EXCL,
 };
 
 static const u16 sDefaultBattleLostWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
-    EC_WORD_TOO,
-    EC_WORD_BAD,
+    EC_WORD_SO,
+    EC_WORD_WELL,
     EC_WORD_ELLIPSIS,
-    EC_WORD_WE,
+    EC_WORD_WE_VE,
     EC_WORD_LOST,
     EC_WORD_ELLIPSIS,
 };
