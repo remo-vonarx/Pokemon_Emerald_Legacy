@@ -40,7 +40,7 @@ INSERTED = {
 	'STR_VAR_2': 10 * LETTER,
 	'STR_VAR_3': 10 * LETTER,
 }
-NAME_WITH_PREFIX = 10 * LETTER + 42  # "Gegn. " or "Wildes " in front of a nickname
+NAME_WITH_PREFIX = 10 * LETTER + 46  # " (Gegner)" behind a nickname
 TRAINER = 12 * LETTER + 3 + 10 * LETTER  # class, space, name
 
 # Field codes the text printer treats as plain, without width.

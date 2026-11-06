@@ -1,6 +1,6 @@
 const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
 {
-    [MOVE_NONE] = _("-"),
+    [MOVE_NONE] = _("--"),
     [MOVE_POUND] = _("PFUND"),
     [MOVE_KARATE_CHOP] = _("KARATESCHLAG"),
     [MOVE_DOUBLE_SLAP] = _("DUPLEXHIEB"),
