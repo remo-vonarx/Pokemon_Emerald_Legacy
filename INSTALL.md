@@ -612,6 +612,6 @@ Note that this is not necessary for a non-modern build since those are built wit
 
 # Useful additional tools
 
-* [porymap](https://github.com/huderlem/porymap) for viewing and editing maps
+* [porymap](https://github.com/huderlem/porymap) for viewing and editing maps. Use version 5.x: this project forked from pokeemerald before the [breaking changes of porymap 6](https://huderlem.github.io/porymap/manual/breaking-changes.html)
 * [poryscript](https://github.com/huderlem/poryscript) for scripting ([VS Code extension](https://marketplace.visualstudio.com/items?itemName=karathan.poryscript))
 * [Tilemap Studio](https://github.com/Rangi42/tilemap-studio) for viewing and editing tilemaps
