@@ -784,7 +784,7 @@ static void Task_UpdatePage(u8 taskId)
     case 3:
         if (!gPaletteFade.active)
         {
-            gTasks[taskId].tDelay = 115;
+            gTasks[taskId].tDelay = 119;
             gTasks[taskId].tState++;
         }
         return;
@@ -826,7 +826,8 @@ static void Task_UpdatePage(u8 taskId)
 
 #undef tDelay
 
-#define PAGE_INTERVAL (PAGE_COUNT / 9) // 9 scenes (5 bike scenes, 4 Pokémon interludes)
+// The German list has two pages fewer than the English; + 2 keeps the English interval.
+#define PAGE_INTERVAL ((PAGE_COUNT + 2) / 9) // 9 scenes (5 bike scenes, 4 Pokémon interludes)
 
 static u8 CheckChangeScene(u8 page, u8 taskId)
 {
