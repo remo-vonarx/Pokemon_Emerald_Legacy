@@ -399,6 +399,25 @@ int AsmFile::ReadBraille(unsigned char* s)
             s[length++] = CHAR_NEWLINE;
             m_pos += 2;
         }
+        else if (m_buffer[m_pos] == '.' || m_buffer[m_pos] == ',')
+        {
+            // German braille, as in the German ROM: a period or comma takes two cells.
+            VerifyStringLength(length);
+            s[length++] = 0x3F;
+            VerifyStringLength(length);
+            s[length++] = m_buffer[m_pos] == '.' ? 0x10 : 0x04;
+            m_pos++;
+        }
+        else if ((unsigned char)m_buffer[m_pos] == 0xC3
+              && ((unsigned char)m_buffer[m_pos + 1] == 0x84      // Ä
+               || (unsigned char)m_buffer[m_pos + 1] == 0x96      // Ö
+               || (unsigned char)m_buffer[m_pos + 1] == 0x9C))    // Ü
+        {
+            unsigned char second = m_buffer[m_pos + 1];
+            VerifyStringLength(length);
+            s[length++] = second == 0x84 ? 0x1A : second == 0x96 ? 0x26 : 0x2D;
+            m_pos += 2;
+        }
         else
         {
             char c = m_buffer[m_pos];
