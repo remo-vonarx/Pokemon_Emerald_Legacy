@@ -986,7 +986,7 @@ static const struct InGameTrade sIngameTrades[] =
 {
     [INGAME_TRADE_SEEDOT] =
     {
-        .nickname = _("DOTS"),
+        .nickname = _("MURZELLO"),
         .species = SPECIES_SEEDOT,
         .ivs = {5, 4, 5, 4, 4, 4},
         .abilityNum = 1,
@@ -995,14 +995,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x84,
         .heldItem = ITEM_CHESTO_BERRY,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("FABIAN"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_RALTS
     },
     [INGAME_TRADE_PLUSLE] =
     {
-        .nickname = _("PLUSES"),
+        .nickname = _("PLUSPO"),
         .species = SPECIES_PLUSLE,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
@@ -1011,14 +1011,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x6F,
         .heldItem = ITEM_WOOD_MAIL,
         .mailNum = 0,
-        .otName = _("ROMAN"),
+        .otName = _("RÜDIGER"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_VOLBEAT
     },
     [INGAME_TRADE_BAGON] =
     {
-        .nickname = _("SEASOR"),
+        .nickname = _("SEEPOM"),
         .species = SPECIES_BAGON,
         .ivs = {13, 15, 14, 15, 15, 14},
         .abilityNum = 0,
@@ -1027,14 +1027,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_WAVE_MAIL,
         .mailNum = 1,
-        .otName = _("SKYLAR"),
+        .otName = _("TORSTEN"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_RELICANTH
     },
     [INGAME_TRADE_MEOWTH] =
     {
-        .nickname = _("MEOWOW"),
+        .nickname = _("MIEZMIEZ"),
         .species = SPECIES_MEOWTH,
         .ivs = {23, 26, 22, 27, 24, 24},
         .abilityNum = 0,
@@ -1043,14 +1043,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x8B,
         .heldItem = ITEM_RETRO_MAIL,
         .mailNum = 2,
-        .otName = _("ISIS"),
+        .otName = _("TABITHA"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_SKITTY
     },
     [INGAME_TRADE_TORCHIC_MAY_TREECKO] =
     {
-        .nickname = _("TORCHIC"),
+        .nickname = _("FLEMMLI"),
         .species = SPECIES_TORCHIC,
         .ivs = {13, 15, 13, 13, 15, 13},
         .abilityNum = 0,
@@ -1059,14 +1059,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("MAY"),
+        .otName = _("MAIKE"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TREECKO
     },
     [INGAME_TRADE_TORCHIC_MAY_MUDKIP] =
     {
-        .nickname = _("TORCHIC"),
+        .nickname = _("FLEMMLI"),
         .species = SPECIES_TORCHIC,
         .ivs = {13, 15, 13, 13, 15, 13},
         .abilityNum = 0,
@@ -1075,14 +1075,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("MAY"),
+        .otName = _("MAIKE"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_MUDKIP
     },
     [INGAME_TRADE_TORCHIC_BRENDAN_TREECKO] =
     {
-        .nickname = _("TORCHIC"),
+        .nickname = _("FLEMMLI"),
         .species = SPECIES_TORCHIC,
         .ivs = {13, 15, 13, 13, 15, 13},
         .abilityNum = 0,
@@ -1091,14 +1091,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("BRENDAN"),
+        .otName = _("BRIX"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TREECKO
     },
     [INGAME_TRADE_TORCHIC_BRENDAN_MUDKIP] =
     {
-        .nickname = _("TORCHIC"),
+        .nickname = _("FLEMMLI"),
         .species = SPECIES_TORCHIC,
         .ivs = {13, 15, 13, 13, 15, 13},
         .abilityNum = 0,
@@ -1107,14 +1107,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("BRENDAN"),
+        .otName = _("BRIX"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_MUDKIP
     },
     [INGAME_TRADE_MUDKIP_MAY_TREECKO] =
     {
-        .nickname = _("MUDKIP"),
+        .nickname = _("HYDROPI"),
         .species = SPECIES_MUDKIP,
         .ivs = {15, 15, 13, 13, 13, 13},
         .abilityNum = 0,
@@ -1123,14 +1123,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("MAY"),
+        .otName = _("MAIKE"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TREECKO
     },
     [INGAME_TRADE_MUDKIP_MAY_TORCHIC] =
     {
-        .nickname = _("MUDKIP"),
+        .nickname = _("HYDROPI"),
         .species = SPECIES_MUDKIP,
         .ivs = {15, 15, 13, 13, 13, 13},
         .abilityNum = 0,
@@ -1139,14 +1139,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("MAY"),
+        .otName = _("MAIKE"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TORCHIC
     },
     [INGAME_TRADE_MUDKIP_BRENDAN_TREECKO] =
     {
-        .nickname = _("MUDKIP"),
+        .nickname = _("HYDROPI"),
         .species = SPECIES_MUDKIP,
         .ivs = {15, 15, 13, 13, 13, 13},
         .abilityNum = 0,
@@ -1155,14 +1155,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("BRENDAN"),
+        .otName = _("BRIX"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TREECKO
     },
     [INGAME_TRADE_MUDKIP_BRENDAN_TORCHIC] =
     {
-        .nickname = _("MUDKIP"),
+        .nickname = _("HYDROPI"),
         .species = SPECIES_MUDKIP,
         .ivs = {15, 15, 13, 13, 13, 13},
         .abilityNum = 0,
@@ -1171,14 +1171,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("BRENDAN"),
+        .otName = _("BRIX"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TORCHIC
     },
     [INGAME_TRADE_TREECKO_MAY_MUDKIP] =
     {
-        .nickname = _("TREECKO"),
+        .nickname = _("GECKARBOR"),
         .species = SPECIES_TREECKO,
         .ivs = {13, 13, 13, 15, 15, 13},
         .abilityNum = 0,
@@ -1187,14 +1187,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("MAY"),
+        .otName = _("MAIKE"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_MUDKIP
     },
     [INGAME_TRADE_TREECKO_MAY_TORCHIC] =
     {
-        .nickname = _("TREECKO"),
+        .nickname = _("GECKARBOR"),
         .species = SPECIES_TREECKO,
         .ivs = {13, 13, 13, 15, 15, 13},
         .abilityNum = 0,
@@ -1203,14 +1203,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("MAY"),
+        .otName = _("MAIKE"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TORCHIC
     },
     [INGAME_TRADE_TREECKO_BRENDAN_MUDKIP] =
     {
-        .nickname = _("TREECKO"),
+        .nickname = _("GECKARBOR"),
         .species = SPECIES_TREECKO,
         .ivs = {13, 13, 13, 15, 15, 13},
         .abilityNum = 0,
@@ -1219,14 +1219,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("BRENDAN"),
+        .otName = _("BRIX"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_MUDKIP
     },
     [INGAME_TRADE_TREECKO_BRENDAN_TORCHIC] =
     {
-        .nickname = _("TREECKO"),
+        .nickname = _("GECKARBOR"),
         .species = SPECIES_TREECKO,
         .ivs = {13, 13, 13, 15, 15, 13},
         .abilityNum = 0,
@@ -1235,14 +1235,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("BRENDAN"),
+        .otName = _("BRIX"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TORCHIC
     },
     [INGAME_TRADE_NUMEL] =
     {
-        .nickname = _("MEL"),
+        .nickname = _("MAUBI"),
         .species = SPECIES_NUMEL,
         .ivs = {15, 16, 13, 13, 17, 15},
         .abilityNum = 0,
@@ -1258,7 +1258,7 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_SNORUNT] =
     {
-        .nickname = _("NIPPY"),
+        .nickname = _("FROSTI"),
         .species = SPECIES_SNORUNT,
         .ivs = {14, 14, 14, 15, 15, 14},
         .abilityNum = 0,
