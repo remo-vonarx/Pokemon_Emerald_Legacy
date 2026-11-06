@@ -171,6 +171,6 @@ AbandonedShip_HiddenFloorRooms_EventScript_RanFromSuicune::
 	end
 
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
-	.string "It's bright and shiny!\n"
-	.string "But it's just trash…$"
+	.string "Es ist hell und glänzend!\n"
+	.string "Aber es ist trotzdem nur Müll…$"
 

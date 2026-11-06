@@ -45,13 +45,14 @@ VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 VerdanturfTown_ContestHall_Text_WhichContestYouEntering:
-	.string "Which CONTEST are you entering?\n"
-	.string "Want a piece of advice?\p"
-	.string "In any CONTEST, for example, a CUTE\n"
-	.string "CONTEST, I don't think they judge you\l"
-	.string "only on cuteness in the first round.\p"
-	.string "You need to work out ways for raising\n"
-	.string "POKéMON better.$"
+	.string "An welchem WETTBEWERB nimmst du teil?\n"
+	.string "Möchtest du einen Rat?\p"
+	.string "Bei jedem WETTBEWERB, zum Beispiel\n"
+	.string "einem ANMUTWETTBEWERB, zählt in der\l"
+	.string "ersten Bewertung wohl nicht nur die\l"
+	.string "Anmut.\p"
+	.string "Du musst herausfinden, wie du deine\n"
+	.string "POKéMON besser aufziehen kannst.$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:

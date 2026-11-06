@@ -95,41 +95,42 @@ EverGrandeCity_SidneysRoom_EventScript_RematchDefeated::
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
-	.string "Welcome, challenger!\n"
-	.string "I'm SIDNEY of the ELITE FOUR.\p"
-	.string "I like that look you're giving me.\n"
-	.string "I guess you'll give me a good match.\l"
-	.string "That's good! Looking real good!\p"
-	.string "All right! You and me, let's enjoy\n"
-	.string "a battle that can only be staged\l"
-	.string "here in the POKéMON LEAGUE!$"
+	.string "Willkommen, Herausforderer!\n"
+	.string "Ich bin ULRICH von den TOP VIER.\p"
+	.string "Ich mag deinen herausfordernden Blick.\n"
+	.string "Ich denke, das wird ein guter Kampf.\l"
+	.string "Gut! Das sieht gut aus!\p"
+	.string "Schön! Dann lass uns beide einen Kampf\n"
+	.string "erleben, wie man ihn nur hier in der\l"
+	.string "POKéMON LIGA erleben kann!$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat:
-	.string "Well, how do you like that? I lost!\n"
-	.string "Eh, it was fun, so it doesn't matter.$"
+	.string "Ich habe verloren! Ich, ULRICH von den\n"
+	.string "TOP VIER. Macht nichts, es war lustig.$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-	.string "Well, listen to what this loser has\n"
-	.string "to say.\p"
-	.string "You've got what it takes to go far.\n"
-	.string "Now, go on to the next room and enjoy\l"
-	.string "your next battle!$"
+	.string "Nun, hör dir an, was dieser Verlierer\n"
+	.string "zu sagen hat.\p"
+	.string "Du bist bestens ausgerüstet.\n"
+	.string "Daher solltest du nun in den nächsten\l"
+	.string "Raum gehen - zum nächsten Kampf.$"
 
 EverGrandeCity_SidneysRoom_Text_RematchIntroSpeech:
-	.string "SIDNEY: Hey, CHAMPION! Back for more?\n"
-	.string "I knew you had a fiery spirit!\p"
-	.string "Well, this time, WALLACE wants a shot\n"
-	.string "at your title.\l"
-	.string "Think of us as your warm-up!\p"
-	.string "Show me that same fire from before!\n"
-	.string "Let's make it a battle to remember!$"
+	.string "ULRICH: Hey, CHAMP! Noch nicht genug?\n"
+	.string "Ich wusste, dass du Feuer im Blut hast!\p"
+	.string "Tja, diesmal will WASSILI deinen\n"
+	.string "Titel.\l"
+	.string "Sieh uns einfach als Aufwärmrunde!\p"
+	.string "Zeig mir das Feuer von damals!\n"
+	.string "Machen wir einen denkwürdigen Kampf\l"
+	.string "daraus!$"
 
 EverGrandeCity_SidneysRoom_Text_RematchDefeat:
-	.string "You really are somethin'…\n"
-	.string "Looks like you're warmed up already!$"
+	.string "Du hast es echt drauf…\n"
+	.string "Sieht aus, als wärst du schon warm!$"
 
 EverGrandeCity_SidneysRoom_Text_RematchPostBattleSpeech:
-	.string "You're as tough as ever!\n"
-	.string "Think you'll hold onto that title?\p"
-	.string "Go on, the next room's waiting!\n"
-	.string "Keep up the heat!$"
+	.string "Du bist so zäh wie eh und je!\n"
+	.string "Meinst du, du kannst den Titel halten?\p"
+	.string "Los, der nächste Raum wartet!\n"
+	.string "Bleib schön heiß!$"

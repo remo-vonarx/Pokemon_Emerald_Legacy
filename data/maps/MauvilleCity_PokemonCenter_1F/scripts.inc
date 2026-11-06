@@ -77,41 +77,45 @@ MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
-	.string "When I accessed the RECORD CORNER,\n"
-	.string "the data for what's hot in DEWFORD\l"
-	.string "got updated.\p"
-	.string "Now that bit of data is the same\n"
-	.string "as my friend's!$"
+	.string "Wenn ich auf STATISTIKTAUSCH Zugriff\n"
+	.string "nehme, werden die neuesten Nachrichten\l"
+	.string "aus FAUSTAUHAVEN hochgeladen.\p"
+	.string "Diese Daten decken sich nun mit denen\n"
+	.string "meines Freundes!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
-	.string "A RECORD CORNER opened upstairs in\n"
-	.string "the POKéMON CENTER.\p"
-	.string "I don't know what it's about, but it\n"
-	.string "sounds fun. I'll go check it out!$"
+	.string "Im oberen Stockwerk des POKéMON-\n"
+	.string "CENTERs wurde die Möglichkeit des\l"
+	.string "STATISTIKTAUSCHes eingerichtet.\p"
+	.string "Ich weiß nicht genau, was das ist. Aber\n"
+	.string "das werde ich herausfinden! Ist\l"
+	.string "bestimmt lustig!$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouWillTradeWontYou:
-	.string "Oh! You have a {STR_VAR_1}, don't you?\p"
-	.string "They're so lively! Would you be willing\n"
-	.string "to trade it for my {STR_VAR_2}?\p"
-	.string "It's quite the unique POKéMON!$"
+	.string "Oh! Du hast ein {STR_VAR_1}, nicht wahr?\p"
+	.string "Die sind so lebhaft! Würdest du es\n"
+	.string "gegen mein {STR_VAR_2} tauschen?\p"
+	.string "Es ist ein wirklich einzigartiges\n"
+	.string "POKéMON!$"
 
 MauvilleCity_PokemonCenter_1F_Text_MonYouTakeCare:
-	.string "Take good care of NIPPY, okay?\p"
-	.string "It's a bit shy at first, but it warms up\n"
-	.string "quickly!$"
+	.string "Pass gut auf FROSTI auf, ja?\p"
+	.string "Am Anfang ist es etwas schüchtern, aber\n"
+	.string "es taut schnell auf!$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThisIsntAMon:
-	.string "Hm? Wait a moment… That's not the\n"
-	.string "{STR_VAR_1} I was hoping for!\p"
-	.string "Are you teasing me?$"
+	.string "Hm? Moment mal… Das ist nicht das\n"
+	.string "{STR_VAR_1}, auf das ich gehofft habe!\p"
+	.string "Willst du mich auf den Arm nehmen?$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouWontTradeMe:
-	.string "Oh, you don't want to trade?\p"
-	.string "That's alright, but if you change your\n"
-	.string "mind, I'd love to find a good partner for\l"
-	.string "my SNORUNT!$"
+	.string "Oh, du willst nicht tauschen?\p"
+	.string "Schon gut, aber falls du es dir anders\n"
+	.string "überlegst: Ich würde für mein\l"
+	.string "SCHNEPPKE gerne einen guten Partner\l"
+	.string "finden!$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThrilledToSeeNewPlaces:
-	.string "I know NIPPY will be thrilled to\n"
-	.string "see new places! With a bit of training, I\l"
-	.string "bet it'll become a real star!$"
+	.string "FROSTI wird sich bestimmt freuen, neue\n"
+	.string "Orte zu sehen! Mit etwas Training wird\l"
+	.string "es sicher ein echter Star!$"

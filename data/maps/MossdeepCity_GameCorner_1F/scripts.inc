@@ -39,14 +39,15 @@ RS_MysteryEventsHouse_EventScript_Door::
 	end
 
 RS_MysteryEventsHouse_Text_OldManGreeting:
-	.string "When I was young, I traveled the world\n"
-	.string "as a POKéMON TRAINER.\p"
-	.string "Now that I've become an old buzzard,\n"
-	.string "my only amusement is watching young\l"
-	.string "TRAINERS battle.$"
+	.string "Als ich noch jung war, bin ich als\n"
+	.string "POKéMON-TRAINER durch die Welt\l"
+	.string "gereist.\p"
+	.string "Nun, da ich ein alter Knabe geworden\n"
+	.string "bin, beobachte ich mit Freuden die\l"
+	.string "jungen TRAINER bei ihren Kämpfen.$"
 
 RS_MysteryEventsHouse_Text_DoorIsLocked:
-	.string "The door appears to be locked.$"
+	.string "Diese Tür ist verschlossen.$"
 
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
 	.string "A TRAINER named {STR_VAR_1} is\n"

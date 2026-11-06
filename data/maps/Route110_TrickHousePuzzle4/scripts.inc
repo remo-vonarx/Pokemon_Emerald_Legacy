@@ -28,44 +28,45 @@ Route110_TrickHousePuzzle4_EventScript_Paula::
 	end
 
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is cool.”\n"
+	.string "{PLAYER} hat den geheimen Code auf die\n"
+	.string "Tür geschrieben.\p"
+	.string "“RÄTSELMEISTER ist cool.”\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "Das Schloss geht klickend auf.$"
 
 Route110_TrickHousePuzzle4_Text_CoraIntro:
-	.string "It's too much bother to think this out.\n"
-	.string "I only wanted to battle!$"
+	.string "Ich habe keine Zeit, das zu verstehen.\n"
+	.string "Ich will nur kämpfen!$"
 
 Route110_TrickHousePuzzle4_Text_CoraDefeat:
-	.string "Even though I lost, I still like battling\n"
-	.string "the best!$"
+	.string "Auch wenn ich verloren habe, liebe ich\n"
+	.string "das Kämpfen.$"
 
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
-	.string "Wouldn't you agree? You would go\n"
-	.string "anywhere if TRAINERS were there.$"
+	.string "Stimmst du mir zu? Du würdest überall\n"
+	.string "hingehen, wo man TRAINER findet.$"
 
 Route110_TrickHousePuzzle4_Text_YujiIntro:
-	.string "Heh! Boulders like this, I can fling\n"
-	.string "them through the air!$"
+	.string "Hey! Felsen wie diese schleudere ich\n"
+	.string "durch die Luft!$"
 
 Route110_TrickHousePuzzle4_Text_YujiDefeat:
-	.string "I can make boulders fly, but I\n"
-	.string "can't solve the puzzle…$"
+	.string "Ich kann Felsen fliegen lassen, aber\n"
+	.string "ein Rätsel zu lösen ist mir zu schwer…$"
 
 Route110_TrickHousePuzzle4_Text_YujiPostBattle:
-	.string "My head has been pounded too much!\n"
-	.string "What if it made me dumber than!\l"
-	.string "already am!?$"
+	.string "Mein Kopf hat zu viel abbekommen!\n"
+	.string "Was, wenn ich dadurch noch dümmer\l"
+	.string "werde, als ich schon bin!?$"
 
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
-	.string "The TRICK HOUSE is getting trickier,\n"
-	.string "isn't it?$"
+	.string "Das RÄTSELHAUS wird immer\n"
+	.string "verrätselter… äh, komplizierter, oder?$"
 
 Route110_TrickHousePuzzle4_Text_PaulaDefeat:
-	.string "Aaak!$"
+	.string "Aaaak!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaPostBattle:
-	.string "Has anyone made it to the end?$"
+	.string "Hat es jemand schon mal bis zum\n"
+	.string "Ende geschafft?$"
 

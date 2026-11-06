@@ -156,15 +156,17 @@ SlateportCity_BattleTentCorridor_Movement_AttendantExit:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 SlateportCity_ContestHall_Text_AdviceForContests:
-	.string "Want a tasty little bit of advice\n"
-	.string "for CONTESTS?\p"
-	.string "Using a certain move after another\n"
-	.string "certain kind of move sometimes gets\l"
-	.string "you extra attention.\p"
-	.string "If you know what you're doing,\n"
-	.string "you can score big in appeal.\p"
-	.string "Of course, your opponents might try\n"
-	.string "disrupting your POKéMON's showing.$"
+	.string "Möchtest du einen kleinen, feinen\n"
+	.string "Tipp für WETTBEWERBE?\p"
+	.string "Wenn du eine bestimmte Attacke nach\n"
+	.string "einer bestimmten anderen Art von\l"
+	.string "Attacke einsetzt, bekommst du manchmal\l"
+	.string "zusätzliche Aufmerksamkeit.\p"
+	.string "Wenn du weißt, was du tust, kannst du\n"
+	.string "mit deinem Ausdruck groß punkten.\p"
+	.string "Natürlich könnten deine Gegner ver-\n"
+	.string "suchen, den Auftritt deines POKéMON\l"
+	.string "zu stören.$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MyPapaIsContestJudge:

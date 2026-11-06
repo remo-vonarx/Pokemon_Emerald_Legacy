@@ -61,40 +61,42 @@ FortreeCity_House1_EventScript_Zigzagoon::
 	end
 
 FortreeCity_House1_Text_YouWillTradeWontYou:
-	.string "Hey, listen up! I've been searching\n"
-	.string "for a {STR_VAR_1} forever!\l"
-	.string "I can’t rest until I have one!\p"
-	.string "…Did you catch that?\n"
-	.string "That’s the sound of pure determination!\p"
-	.string "Now that you know, you'll trade\n"
-	.string "your {STR_VAR_1} for my {STR_VAR_2},\l"
-	.string "right?$"
+	.string "Hey, hör mal zu! Ich suche schon ewig\n"
+	.string "nach einem {STR_VAR_1}!\l"
+	.string "Ich habe keine Ruhe, bis ich eins habe!\p"
+	.string "…Hast du das gehört?\n"
+	.string "Das ist der Klang purer\l"
+	.string "Entschlossenheit!\p"
+	.string "Jetzt, wo du das weißt, tauschst du\n"
+	.string "doch bestimmt dein {STR_VAR_1}\l"
+	.string "gegen mein {STR_VAR_2}?!?$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
-	.string "Wow! You really want to trade! I’ll make\n"
-	.string "sure to keep this {STR_VAR_1} in top\l"
-	.string "shape.\p"
-	.string "You take good care of my {STR_VAR_2},\n"
+	.string "Wow! Du willst wirklich tauschen! Ich\n"
+	.string "sorge dafür, dass dieses {STR_VAR_1}\l"
+	.string "in Topform bleibt.\p"
+	.string "Pass du gut auf mein {STR_VAR_2} auf,\n"
 	.string "okay?$"
 
 FortreeCity_House1_Text_ThisIsntAMon:
-	.string "Hmm, no, that’s not it.\n"
-	.string "I need a real {STR_VAR_1}.$"
+	.string "Hmm, nee, das ist es nicht.\n"
+	.string "Ich brauche ein echtes {STR_VAR_1}.$"
 
 FortreeCity_House1_Text_YouWontTradeMe:
-	.string "Oh, I see… Not interested in trading,\n"
-	.string "huh? That’s okay, maybe another time!$"
+	.string "Ach so… Du willst also nicht tauschen,\n"
+	.string "was? Schon okay, vielleicht ja ein\l"
+	.string "anderes Mal!$"
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "My KECLEON is gonna be the strongest\n"
-	.string "one around! I hope LOUDRED fits\l"
-	.string "right into your team!$"
+	.string "Mein KECLEON wird das stärkste weit\n"
+	.string "und breit! Ich hoffe, KRAKEELO passt\l"
+	.string "gut in dein Team!$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
-	.string "Trading POKéMON with others…\p"
-	.string "It's as if you're trading your own\n"
-	.string "memories with other people.$"
+	.string "Mit anderen POKéMON tauschen…\p"
+	.string "Das ist, als ob du die Erinnerungen mit\n"
+	.string "anderen Menschen teilst.$"
 
 FortreeCity_House1_Text_Zigzagoon:
-	.string "ZIGZAGOON: Gumomoh?$"
+	.string "ZIGZACHS: Gumomoh?$"
 

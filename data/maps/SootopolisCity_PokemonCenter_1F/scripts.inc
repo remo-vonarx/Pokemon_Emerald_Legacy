@@ -51,32 +51,33 @@ SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendaries::
 	end
 
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
-	.string "WALLACE is the leader of this town's\n"
-	.string "GYM, and he's one of the toughest\l"
-	.string "TRAINERS in the whole HOENN region.$"
+	.string "WASSILI ist der ARENALEITER dieses\n"
+	.string "Ortes und einer der stärksten TRAINER\l"
+	.string "der ganzen HOENN-Region.$"
 
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn2:
-	.string "WALLACE is rumored to be the toughest\n"
-	.string "TRAINER in the whole HOENN region.\p"
-	.string "There's another trainer, JUAN\n"
-	.string "who mentored WALLACE.\p"
-	.string "The ELITE FOUR are said to be\n"
-	.string "even stronger than WALLACE's mentor.\p"
-	.string "How strong could they be?$"
+	.string "Man sagt, WASSILI sei der beste TRAINER\n"
+	.string "der ganzen HOENN-Region.\p"
+	.string "Es gibt noch einen anderen TRAINER,\n"
+	.string "JUAN, den Lehrer von WASSILI.\p"
+	.string "Man sagt, die TOP VIER seien noch\n"
+	.string "stärker als WASSILIs Lehrer.\p"
+	.string "Wie stark müssen sie dann erst sein?$"
 
 SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
-	.string "Everyone in town has taken refuge\n"
-	.string "and won't come out of their homes.\p"
-	.string "Even I would rather not venture\n"
-	.string "outside.$"
+	.string "Jeder im Ort hat sich in sein Haus\n"
+	.string "zurückgezogen und kommt nicht heraus.\p"
+	.string "Ich würde es auch nicht wagen, nach\n"
+	.string "draußen zu gehen.$"
 
 SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
-	.string "Whenever, wherever, and whatever\n"
-	.string "happens, I will always be friends with\l"
-	.string "POKéMON.\p"
-	.string "Because it's fun to be with POKéMON!$"
+	.string "Was auch immer wann oder wo passiert,\n"
+	.string "meine Freundschaft zu den POKéMON\l"
+	.string "leidet darunter bestimmt nicht!\p"
+	.string "Ich liebe es, mit POKéMON zusammen\n"
+	.string "zu sein.$"
 
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
-	.string "Aren't POKéMON our friends?\p"
-	.string "Why are they going wild this way?$"
+	.string "Sind POKéMON nicht unsere Freunde?\p"
+	.string "Warum sind sie dann auf einmal so wild?$"
 

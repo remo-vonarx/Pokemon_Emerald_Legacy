@@ -30,7 +30,7 @@ DesertUnderpass_EventScript_GiveRootFossil::
 
 @ Unused
 DesertUnderpass_Text_FoundRootFossil::
-	.string "{PLAYER} found the ROOT FOSSIL.$"
+	.string "{PLAYER} findet das WURZELFOSSIL.$"
 
 @ Unused
 DesertUnderpass_Text_FoundClawFossil::

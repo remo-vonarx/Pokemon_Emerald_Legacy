@@ -47,9 +47,9 @@ Route106_EventScript_Tully::
 	end
 
 Route106_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "Advice on catching POKéMON with a ROD:\n"
-	.string "Slow down, and press the A Button if\l"
-	.string "you get a bite!\p"
-	.string "You'll only need to press it once to\n"
-	.string "know if it got away.$"
+	.string "TIPPS für TRAINER\p"
+	.string "Hinweis zum Fangen von POKéMON mit der\n"
+	.string "ANGEL: Lass dir Zeit. Drücke A,\l"
+	.string "wenn eines anbeißt!\p"
+	.string "Du musst nur einmal drücken, um zu\n"
+	.string "erfahren, ob es entkommen ist.$"

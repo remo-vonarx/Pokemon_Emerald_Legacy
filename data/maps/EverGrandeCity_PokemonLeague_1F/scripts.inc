@@ -210,23 +210,25 @@ EverGrandeCity_PokemonLeague_1F_Movement_MovePlayerBack:
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-	.string "Beyond this point, only those TRAINERS\n"
-	.string "who have collected all the GYM BADGES\l"
-	.string "are permitted to enter.\p"
-	.string "TRAINER, let us confirm that you have\n"
-	.string "all the GYM BADGES.$"
+	.string "Ab hier haben nur die TRAINER, die alle\n"
+	.string "ORDEN der ARENen erhalten haben,\l"
+	.string "Zutritt.\p"
+	.string "TRAINER, lass uns sicherstellen, dass\n"
+	.string "du auch alle ORDEN hast.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-	.string "You haven't obtained all the BADGES.\p"
-	.string "If you're bound for the POKéMON\n"
-	.string "LEAGUE, you must return with them.$"
+	.string "Du hast noch nicht alle ORDEN erhalten.\p"
+	.string "Wenn du zur POKéMON LIGA willst,\n"
+	.string "musst du alle ORDEN vorweisen können.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_CantBringLegendaries:
-	.string "Only POKéMON of extraordinary spirit\n"
-	.string "may enter the LEAGUE's ranks.\p"
-	.string "LEGENDARY POKéMON are not allowed.\n"
-	.string "Please return with a different team.$"
+	.string "Nur POKéMON von außergewöhnlichem\n"
+	.string "Geist dürfen in die Ränge der LIGA\l"
+	.string "aufsteigen.\p"
+	.string "LEGENDÄRE POKéMON sind nicht erlaubt.\n"
+	.string "Bitte komm mit einem anderen Team\l"
+	.string "wieder.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "TRAINER! Believe in yourself and your\n"
-	.string "POKéMON, and go forth!$"
+	.string "TRAINER! Glaube an dich und deine\n"
+	.string "POKéMON und gehe weiter!$"

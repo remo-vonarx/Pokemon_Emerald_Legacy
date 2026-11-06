@@ -116,30 +116,32 @@ EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2:
 	step_end
 
 EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
-	.string "WALLACE: This room…\n"
-	.string "You know it well, {PLAYER}{KUN}.\p"
-	.string "It's where CHAMPIONS like you and your\n"
-	.string "POKéMON are immortalized.\p"
-	.string "To defend your title here is a rare\n"
-	.string "feat, one few can claim.$"
+	.string "WASSILI: Dieser Raum…\n"
+	.string "Du kennst ihn gut, {PLAYER}{KUN}.\p"
+	.string "Hier werden CHAMPs wie du und deine\n"
+	.string "POKéMON verewigt.\p"
+	.string "Hier den Titel zu verteidigen ist eine\n"
+	.string "seltene Leistung, die nur wenigen\l"
+	.string "gelingt.$"
 
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
-	.string "WALLACE: Now, let's record your name\n"
-	.string "once more, as the CHAMPION who\l"
-	.string "defended their place with unwavering\p"
-	.string "resolve, and the names of the partners\n"
-	.string "who stood by your side in victory.$"
+	.string "WASSILI: Schreiben wir nun noch einmal\n"
+	.string "deinen Namen nieder, als CHAMP, der\l"
+	.string "seinen Platz mit unerschütterlicher\p"
+	.string "Entschlossenheit verteidigt hat -\n"
+	.string "und die Namen deiner Partner, die dir\l"
+	.string "beim Sieg zur Seite standen.$"
 
 EverGrandeCity_HallOfFame_Text_StevenHereWeHonorLeagueChampions:
-	.string "STEVEN: This room…\p"
-	.string "This is where we keep records of\n"
-	.string "POKéMON that prevailed through\l"
-	.string "harsh battles.\p"
-	.string "It is here that the LEAGUE CHAMPIONS\n"
-	.string "are honored.$"
+	.string "TROY: Dieser Raum…\p"
+	.string "Hier verzeichnen wir die POKéMON, die\n"
+	.string "siegreich aus harten Kämpfen hervorge-\l"
+	.string "gangen sind.\p"
+	.string "Hier werden die CHAMPs der POKéMON\n"
+	.string "LIGA geehrt.$"
 
 EverGrandeCity_HallOfFame_Text_StevenLetsRecordYouAndYourPartnersNames:
-	.string "STEVEN: Come on, let's record your\n"
-	.string "name as a TRAINER who triumphed over\l"
-	.string "the POKéMON LEAGUE, and the names of\l"
-	.string "the partners who battled with you.$"
+	.string "TROY: Komm, schreiben wir deinen\n"
+	.string "Namen nieder, als ein TRAINER, der über\l"
+	.string "die POKéMON LIGA triumphiert hat - und\l"
+	.string "die Namen deiner Partner ebenfalls.$"

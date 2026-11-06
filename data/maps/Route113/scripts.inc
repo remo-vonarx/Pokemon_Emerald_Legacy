@@ -140,16 +140,16 @@ Route113_EventScript_Wyatt::
 	end
 
 Route113_Text_AshCanBeFashionedIntoGlass:
-	.string "Wahahaha! Today's technology is a\n"
-	.string "wondrous thing!\p"
-	.string "Take this volcanic ash here.\n"
-	.string "It can be fashioned into glass.$"
+	.string "Wahahaha! Die heutige Technologie ist\n"
+	.string "schon eine wundersame Sache!\p"
+	.string "Nimm zum Beispiel diese Vulkanasche\n"
+	.string "hier. Aus ihr kann man Glas machen!$"
 
 Route113_Text_FunWalkingThroughAsh:
-	.string "It's fun walking through the volcano's\n"
-	.string "ashes on the ground and grass.\p"
-	.string "You can see where you walked--it's\n"
-	.string "really neat!$"
+	.string "Es macht Spaß, durch die Vulkanasche zu\n"
+	.string "laufen, über Boden und Gras.\p"
+	.string "Du kannst genau erkennen, wo du her-\n"
+	.string "umgelaufen bist - total klasse!$"
 
 Route113_Text_RouteSign111:
 	.string "ROUTE 113\n"
@@ -157,18 +157,18 @@ Route113_Text_RouteSign111:
 
 Route113_Text_RouteSignFallarbor:
 	.string "ROUTE 113\n"
-	.string "{LEFT_ARROW} FALLARBOR TOWN$"
+	.string "{LEFT_ARROW} LAUBWECHSELFELD$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
-	.string "TRAINER TIPS\p"
-	.string "Abilities don't just change the course\n"
-	.string "of battle, some can have effects\l"
-	.string "outside battle too.\p"
-	.string "A prepared trainer can use these\n"
-	.string "abilities to find rare POKéMON and\l"
-	.string "items, or even get more phone calls.$"
+	.string "TIPPS für TRAINER\p"
+	.string "Fähigkeiten verändern nicht nur den\n"
+	.string "Verlauf eines Kampfes, manche wirken\l"
+	.string "auch außerhalb des Kampfes.\p"
+	.string "Gut vorbereitete TRAINER finden mit\n"
+	.string "ihnen seltene POKéMON und Items oder\l"
+	.string "bekommen sogar mehr Anrufe.$"
 
 Route113_Text_GlassWorkshopSign:
-	.string "GLASS WORKSHOP\n"
-	.string "“Turning Volcanic Ash into Glass Items”$"
+	.string "GLASWERKSTATT\n"
+	.string "“Glasdekor aus Vulkanasche.”$"
 
