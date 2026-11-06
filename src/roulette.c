@@ -456,12 +456,12 @@ static const struct WindowTemplate sWindowTemplates[] =
 {
     {
         .bg = 0,
-        .tilemapLeft = 3,
+        .tilemapLeft = 2,
         .tilemapTop = 15,
-        .width = 24,
+        .width = 26,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0xC5
+        .baseBlock = 0xBD
     },
     #ifdef UBFIX
     DUMMY_WIN_TEMPLATE,

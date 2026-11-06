@@ -54,7 +54,7 @@ BOXES = [
 	(r'data/maps/.*\.inc$', 'Normal', 216, 2),
 	(r'data/scripts/.*\.inc$', 'Normal', 216, 2),
 	(r'data/text/.*\.inc$', 'Normal', 216, 2),
-	(r'src/battle_message\.c$', 'Normal', 208, 2),
+	(r'src/battle_message\.c$', 'Normal', 216, 2),
 	(r'src/data/text/match_call_messages\.h$', 'Normal', 216, 2),
 ]
 

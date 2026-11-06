@@ -1909,19 +1909,7 @@ static void FillFactoryTentTrainerParty(u16 trainerId, u8 firstMonId)
 
 void FrontierSpeechToString(const u16 *words)
 {
-    ConvertEasyChatWordsToString(gStringVar4, words, 3, 2);
-    if (GetStringWidth(FONT_NORMAL, gStringVar4, -1) > 204u)
-    {
-        s32 i = 0;
-
-        ConvertEasyChatWordsToString(gStringVar4, words, 2, 3);
-        while (gStringVar4[i++] != CHAR_NEWLINE)
-            ;
-        while (gStringVar4[i] != CHAR_NEWLINE)
-            i++;
-
-        gStringVar4[i] = CHAR_PROMPT_SCROLL;
-    }
+    ConvertEasyChatWordsToPagedString(gStringVar4, words, 2, 3);
 }
 
 static void GetOpponentIntroSpeech(void)
@@ -2678,6 +2666,7 @@ static void SetTowerInterviewData(void)
 
     GetFrontierTrainerName(text, gTrainerBattleOpponent_A);
     StripExtCtrlCodes(text);
+    text[PLAYER_NAME_LENGTH] = EOS;
     StringCopy(gSaveBlock2Ptr->frontier.towerInterview.opponentName, text);
     GetBattleTowerTrainerLanguage(&gSaveBlock2Ptr->frontier.towerInterview.opponentLanguage, gTrainerBattleOpponent_A);
     gSaveBlock2Ptr->frontier.towerInterview.opponentSpecies = GetMonData(&gEnemyParty[gBattlerPartyIndexes[1]], MON_DATA_SPECIES, NULL);

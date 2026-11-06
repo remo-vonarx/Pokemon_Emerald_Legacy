@@ -828,9 +828,9 @@ static const struct BgTemplate sEasyChatBgTemplates[] = {
 static const struct WindowTemplate sEasyChatWindowTemplates[] = {
     [WIN_TITLE] = {
         .bg = 1,
-        .tilemapLeft = 6,
+        .tilemapLeft = 0,
         .tilemapTop = 0,
-        .width = 18,
+        .width = 30,
         .height = 2,
         .paletteNum = 10,
         .baseBlock = 0x10,
@@ -1199,8 +1199,8 @@ static const struct SpriteTemplate sSpriteTemplate_ScrollIndicator =
 
 static const u8 sFooterOptionXOffsets[NUM_FOOTER_TYPES][4] = {
     [FOOTER_NORMAL] = {16, 111, 196,   0},
-    [FOOTER_QUIZ]   = {16,  78, 130, 160},
-    [FOOTER_ANSWER] = {16,  80, 134, 170},
+    [FOOTER_QUIZ]   = {16,  80, 144, 184},
+    [FOOTER_ANSWER] = {16,  74, 132, 166},
 };
 
 static const u8 *const sFooterTextOptions[NUM_FOOTER_TYPES][4] = {
@@ -3945,7 +3945,7 @@ static void PrintTitle(void)
     if (!titleText)
         return;
 
-    xOffset = GetStringCenterAlignXOffset(FONT_NORMAL, titleText, 144);
+    xOffset = GetStringCenterAlignXOffset(FONT_NORMAL, titleText, 240);
     FillWindowPixelBuffer(WIN_TITLE, PIXEL_FILL(0));
     PrintEasyChatTextWithColors(WIN_TITLE, FONT_NORMAL, titleText, xOffset, 1, TEXT_SKIP_DRAW, TEXT_COLOR_TRANSPARENT, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
     PutWindowTilemap(WIN_TITLE);
@@ -4043,7 +4043,7 @@ static void AddPhraseWindow(void)
     template.width = sPhraseFrameDimensions[frameId].width;
     template.height = sPhraseFrameDimensions[frameId].height;
     template.paletteNum = 11;
-    template.baseBlock = 0x6C;
+    template.baseBlock = 0x84;
     sScreenControl->windowId = AddWindow(&template);
     PutWindowTilemap(sScreenControl->windowId);
 }
@@ -5088,7 +5088,7 @@ static void AddMainScreenButtonWindow(void)
     template.width = 28;
     template.height = 2;
     template.paletteNum = 11;
-    template.baseBlock = 0x34;
+    template.baseBlock = 0x4C;
     windowId = AddWindow(&template);
     FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
     for (i = 0; i < (int)ARRAY_COUNT(sFooterTextOptions[0]); i++)
@@ -5264,7 +5264,7 @@ u8 *ConvertEasyChatWordsToString(u8 *dest, const u16 *src, u16 columns, u16 rows
     return dest;
 }
 
-static u8 UNUSED *UnusedConvertEasyChatWordsToString(u8 *dest, const u16 *src, u16 columns, u16 rows)
+u8 *ConvertEasyChatWordsToPagedString(u8 *dest, const u16 *src, u16 columns, u16 rows)
 {
     u16 i, j, k;
     u16 numColumns;
@@ -5309,6 +5309,13 @@ static u8 UNUSED *UnusedConvertEasyChatWordsToString(u8 *dest, const u16 *src, u
 
         dest++;
         lineNumber++;
+    }
+
+    // Every row empty: nothing to cut, so end the text here.
+    if (lineNumber == 0)
+    {
+        *dest = EOS;
+        return dest;
     }
 
     dest--;

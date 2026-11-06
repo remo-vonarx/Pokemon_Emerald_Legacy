@@ -282,10 +282,10 @@ static const struct ListMenuTemplate sItemListMenu =
 };
 
 static const u8 sMenuText_ByName[] = _("Name");
-static const u8 sMenuText_ByType[] = _("Type");
-static const u8 sMenuText_ByAmount[] = _("Amount");
-static const u8 sMenuText_ByNumber[] = _("Number");
-static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+static const u8 sMenuText_ByType[] = _("Typ");
+static const u8 sMenuText_ByAmount[] = _("Anzahl");
+static const u8 sMenuText_ByNumber[] = _("Nummer");
+static const u8 sText_NothingToSort[] = _("Hier gibt es nichts zu sortieren!");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      {ItemMenu_UseOutOfBattle}},
     [ACTION_TOSS]              = {gMenuText_Toss,     {ItemMenu_Toss}},
@@ -1268,7 +1268,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
             {
                 if ((gBagMenu->numItemStacks[gBagPosition.pocket] - 1) <= 1) //can't sort with 0 or 1 item in bag
                 {
-                    static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+                    static const u8 sText_NothingToSort[] = _("Hier gibt es nichts zu sortieren!");
                     PlaySE(SE_FAILURE);
                     DisplayItemMessage(taskId, 1, sText_NothingToSort, HandleErrorMessage);
                     break;
@@ -2703,11 +2703,11 @@ enum ItemSortType
     ITEM_TYPE_LUXURY_BALL,
     ITEM_TYPE_PREMIER_BALL,
 };
-static const u8 sText_SortItemsHow[] = _("Sort items how?");
-static const u8 sText_Name[] = _("name");
-static const u8 sText_Type[] = _("type");
-static const u8 sText_Amount[] = _("amount");
-static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
+static const u8 sText_SortItemsHow[] = _("Wonach sortieren?");
+static const u8 sText_Name[] = _("Namen");
+static const u8 sText_Type[] = _("Typ");
+static const u8 sText_Amount[] = _("Anzahl");
+static const u8 sText_ItemsSorted[] = _("Items nach {STR_VAR_1} sortiert!");
 static const u8 *const sSortTypeStrings[] = 
 {
     [SORT_ALPHABETICALLY] = sText_Name,
