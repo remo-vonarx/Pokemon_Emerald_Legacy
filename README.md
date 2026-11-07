@@ -5,6 +5,34 @@ Emerald Legacy is meant to serve as a finale to the trio of planned projects in 
 Keeping that nostalgic feeling is a key part of the project and thus requires us to temper our changes into things that improve the experience but don’t take you out of that original generation 3 mindset. Things like the Physical/Special Split, adding moves, adding new evolutions, or adding the fairy typing are not things you will find in this game. Instead look for improvements to the Rival storyline, Team Magma & Aqua storyline, Tons of pokemon balancing using the tools given to us in this generation, a robust post game, improved boss fights throughout the game, adjusted level curve, and so much more. We are not trying to create a new game, nor are we trying to create a “Kaizo” game that is insanely difficult. We wanted to create a modern but nostalgic version of Pokémon Emerald. So please enjoy Pokémon Emerald Legacy.
 
 
+## Changes in this fork
+
+This fork is a full German translation of Emerald Legacy. The general rule was to follow the German Smaragd-Edition: its wording, menu layouts and graphics are used wherever Emerald Legacy did not change them, so the game feels familiar to everyone who grew up with the German release. Minor mistakes in the German release, such as typos and text running past its box, are fixed. Text that Emerald Legacy added or changed has a new German translation in the style of the German release.
+
+**German:**
+* All dialogue, signs, TV shows, Match Call calls, and the Easy Chat words and phrases
+* The title screen, which reads SMARAGD-VERMÄCHTNIS, and the difficulty choice NORMAL, SCHWER or EXTREM
+* The Pokédex, with entries and categories from the German release and heights and weights in metres and kilograms
+* Moves, items, abilities, natures, types, stats, berries, decorations and trainer classes
+* All 386 Pokémon (GECKARBOR, FLEMMLI, HYDROPI, ...)
+* Characters: PROF. BIRK, BRIX and MAIKE, HEIKO, FELIZIA, KAMILLO, WALTER, FLAVIA, NORMAN, WIBKE, BEN & SVENJA, JUAN, ULRICH, ANTONIA, FROSINA, DRAGAN, WASSILI, TROY, MARC and ADRIAN
+* Characters that Emerald Legacy added, named as in the German Omega Rubin and Alpha Saphir: AMALIA, JÖRDIS, AVELINA, the WISSENSHÜTERIN and the METEORANER
+* Cities: WURZELHEIM, ROSALTSTADT, BLÜTENBURG CITY, METAROST CITY, FAUSTAUHAVEN, GRAPHITPORT CITY, MALVENFROH CITY, WIESENFLUR, LAUBWECHSELFELD, BAD LAVASTADT, BAUMHAUSEN CITY, SEEGRASULB CITY, MOOSBACH CITY, XENEROVILLE, FLOSSBRUNN and PRACHTPOLIS CITY
+* The Battle Frontier, contests, the Berry Blender, the Game Corner, the Trainer Hill, Mystery Gift and the link menus
+* The graphics with words in them: fonts, menus, tab bars, the contest and Battle Frontier screens, the Pokédex and the ending
+
+**Still English:** the debug menus, the role headings of the original staff in the credits (English in the German release as well) and the names of the trainers that Emerald Legacy added.
+
+**Bug fixes from upstream issues:**
+* [#32](https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/issues/32) by LiamTyler, with the Porymap advice from Exclsior: the mapjson tool builds on newer compilers, and INSTALL.md asks for Porymap 5.x
+* [#33](https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/issues/33) by davidstone: the AI no longer picks Trick in battles where the move always fails
+* [#34](https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/issues/34) by davidstone, with Pinsir added by Bruhcation: Forretress learns Spike Cannon at level 33 and Pinsir Megahorn at level 48, the levels from Crystal Legacy
+
+The patches under Releases are the English game. To play in German, build this fork as [INSTALL.md](INSTALL.md) describes. The ROM it builds carries the game code of the German release, BPED, instead of BPEE. A save from the English game loads, but Pokémon caught there keep their English names, even when they evolve: the game only renames Pokémon of its own language.
+
+After changing text, run `python3 tools/check_text.py` and `python3 tools/check_names.py`. The first checks codes and `$` ends, and the lines per box in the dialogue, battle messages and Match Call calls. The second looks for English names. `check_text.py --widths` also measures every line in pixels, with each inserted name at its longest, so it reports some lines that fit in play.
+
+
 ## Download and Play
 
 * To download the patch, see [RELEASES](https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/releases) and download the zip file for the latest patch. Unzip the folder, then follow the instructions in one of the readme files in the `Patching Instructions` folder.
