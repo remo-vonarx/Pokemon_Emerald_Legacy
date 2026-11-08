@@ -50,32 +50,35 @@ RustboroCity_House1_EventScript_Hiker::
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant:
-	.string "Oh, do you think my POKéMON is cool?\n"
-	.string "Yeah, I think so too!\p"
-	.string "But hey, if you're interested, I'd be\n"
-	.string "willing to trade it with you.\p"
-	.string "I'll trade you my {STR_VAR_2} for\n"
-	.string "a {STR_VAR_1}, what do you say?$"
+	.string "Oh, du findest mein POKéMON cool?\n"
+	.string "Ja, das finde ich auch!\p"
+	.string "Aber hey, wenn du magst, würde ich es\n"
+	.string "mit dir tauschen.\p"
+	.string "Ich gebe dir mein {STR_VAR_2}, wenn du\n"
+	.string "mir ein {STR_VAR_1} gibst.\l"
+	.string "Einverstanden?$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
-	.string "Hehe… Take good care of {STR_VAR_2},\n"
-	.string "okay? It loves adventure!$"
+	.string "Hehe… Pass gut auf {STR_VAR_2} auf,\n"
+	.string "ja? Es liebt Abenteuer!$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
-	.string "Hmm? That doesn't seem like a\n"
-	.string "{STR_VAR_1} to me…$"
+	.string "Hmm? Das sieht für mich aber nicht wie\n"
+	.string "ein {STR_VAR_1} aus…$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
-	.string "Oh, that's fine if you don't want to.\n"
-	.string "NUMEL will always be my little explorer.$"
+	.string "Du willst nicht tauschen? Kein Problem.\n"
+	.string "CAMAUB bleibt immer mein kleiner\l"
+	.string "Entdecker.$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
-	.string "You know, any POKéMON can be special\n"
-	.string "if you show it love and patience.$"
+	.string "Weißt du, jedes POKéMON kann etwas\n"
+	.string "Besonderes sein, wenn du ihm Liebe\l"
+	.string "und Geduld schenkst.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces:
-	.string "In all sorts of places, there are all\n"
-	.string "sorts of POKéMON and people.\p"
-	.string "I find that fascinating, so I go to all\n"
-	.string "sorts of places.$"
+	.string "An allen Orten gibt es alle Sorten von\n"
+	.string "POKéMON und Menschen.\p"
+	.string "Ich finde das faszinierend, daher\n"
+	.string "besuche ich alle möglichen Orte.$"
 

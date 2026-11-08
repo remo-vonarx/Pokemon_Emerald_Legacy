@@ -140,35 +140,36 @@ SkyPillar_Outside_EventScript_ClosedDoor::
 	end
 
 SkyPillar_Outside_Text_DoorIsClosed:
-	.string "The door is closed.$"
+	.string "Die Tür ist zu.$"
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
-	.string "WALLACE: Ah, {PLAYER}{KUN},\n"
-	.string "you've arrived.\p"
-	.string "As promised, I've unlocked the entrance\n"
-	.string "to the SKY PILLAR.\p"
-	.string "This is a place like no other, steeped in\n"
-	.string "legend and grace.\p"
-	.string "The DRAGON LORD awaits us at its\n"
-	.string "summit, I'm sure of it.\p"
-	.string "Shall we ascend… together?$"
+	.string "WASSILI: Ah, {PLAYER}{KUN},\n"
+	.string "du bist da.\p"
+	.string "Wie versprochen habe ich den Eingang\n"
+	.string "des HIMMELTURMs aufgeschlossen.\p"
+	.string "Dies ist ein Ort wie kein anderer,\n"
+	.string "voller Legenden und Anmut.\p"
+	.string "Der DRACHENGOTT erwartet uns ganz\n"
+	.string "oben, da bin ich mir sicher.\p"
+	.string "Wollen wir… gemeinsam hinaufsteigen?$"
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
-	.string "WALLACE: Oh dear, an earthquake!\p"
-	.string "The earth itself trembles in fear!\n"
-	.string "We have no time to waste!$"
+	.string "WASSILI: Oh je, ein Erdbeben!\p"
+	.string "Selbst die Erde zittert vor Angst!\n"
+	.string "Wir dürfen keine Sekunde verlieren!$"
 
 SkyPillar_Outside_Text_SituationGettingWorse:
-	.string "WALLACE: This is troubling…\n"
-	.string "The skies grow darker by the minute.$"
+	.string "WASSILI: Das ist beunruhigend…\n"
+	.string "Der Himmel wird von Minute zu Minute\l"
+	.string "dunkler.$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
-	.string "WALLACE: This isn't good…\n"
-	.string "The chaos is spreading even here…\p"
+	.string "WASSILI: Das ist schlecht…\n"
+	.string "Das Chaos breitet sich selbst hier aus…\p"
 	.string "{PLAYER}{KUN}.\p"
-	.string "I believe the DRAGON LORD lies at the\n"
-	.string "summit.\p"
-	.string "I must return to SOOTOPOLIS…\n"
-	.string "My city needs its guardian.\p"
-	.string "I entrust this monumental task to you.\n"
-	.string "Please, do not let us down!$"
+	.string "Ich glaube, der DRACHENGOTT befindet\n"
+	.string "sich ganz oben.\p"
+	.string "Ich muss zurück nach XENEROVILLE…\n"
+	.string "Meine Stadt braucht ihren Beschützer.\p"
+	.string "Ich vertraue dir diese gewaltige\n"
+	.string "Aufgabe an. Bitte enttäusch uns nicht!$"

@@ -80,40 +80,43 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 	end
 	
 BattleFrontier_PokemonCenter_1F_Text_IllTradeIfYouWant:
-	.string "There was someone here using a {STR_VAR_1},\n"
-	.string "a POKéMON I've never seen before.\p"
-	.string "I couldn't help but notice it was\n"
-	.string "both rare and quite impressive.\p"
-	.string "If you find one, I'm willing to\n"
-	.string "trade you my {STR_VAR_2}.\p"
-	.string "It may not be as rare, but I know\n"
-	.string "my POKéMON is cute. Maybe you’ll\l"
-	.string "find it worth the trade.$"
+	.string "Hier war gerade jemand, der hat ein\n"
+	.string "{STR_VAR_1} gehabt, ein POKéMON, das\l"
+	.string "ich vorher noch nie gesehen habe.\p"
+	.string "Mir ist gleich aufgefallen, wie selten\n"
+	.string "und beeindruckend es ist.\p"
+	.string "Falls du eins findest, tausche ich es\n"
+	.string "gern gegen mein {STR_VAR_2}.\p"
+	.string "Es ist vielleicht nicht so selten,\n"
+	.string "aber mein POKéMON ist süß. Vielleicht\l"
+	.string "findest du ja, der Tausch lohnt sich.$"
 
 BattleFrontier_PokemonCenter_1F_Text_PleaseBeGoodToMyPokemon:
-	.string "Eheheh…\n"
-	.string "Please be good to my POKéMON.$"
+	.string "Ähähähähä…\n"
+	.string "Sei nett zu meinem POKéMON.$"
 
 BattleFrontier_PokemonCenter_1F_Text_DoesntLookLikeMonToMe:
-	.string "Huh? That doesn't look anything like\n"
-	.string "a {STR_VAR_1} to me.$"
+	.string "Wie? Das sieht für mich aber nicht wie\n"
+	.string "ein {STR_VAR_1} aus!$"
 
 BattleFrontier_PokemonCenter_1F_Text_YouDontWantToThatsOkay:
-	.string "Oh, if you don't want to, that's okay.\n"
-	.string "But my POKéMON is cute, you know…$"
+	.string "Du willst nicht tauschen? Kein Problem.\n"
+	.string "Aber mein POKéMON ist wirklich niedlich,\l"
+	.string "das weißt du schon?!?$"
 
 BattleFrontier_PokemonCenter_1F_Text_AnyPokemonCanBeCute:
-	.string "Any POKéMON can be cute if you raise\n"
-	.string "it with care and kindness.$"
+	.string "Jedes POKéMON ist niedlich, wenn es mit\n"
+	.string "Freundlichkeit und Fürsorge\l"
+	.string "aufgezogen wird.$"
 
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
-	.string "Okay! Next stop, the BATTLE ARENA!\n"
-	.string "I'd better get the right POKéMON from\l"
-	.string "the PC Storage System.$"
+	.string "Okay! Nächster Halt: KAMPFRING!\n"
+	.string "Ich sollte mir schnell ein POKéMON aus\l"
+	.string "dem POKéMON-Lagerungs-System nehmen.$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
-	.string "Giggle… I'm going to go through every\n"
-	.string "challenge with just this baby!$"
+	.string "Kicher… Mit diesem Schatz hier werde\n"
+	.string "ich jede Herausforderung bestehen!$"
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty:
-	.string "SKITTY: Mya myaaah!$"
+	.string "ENECO: Mya myaaah!$"

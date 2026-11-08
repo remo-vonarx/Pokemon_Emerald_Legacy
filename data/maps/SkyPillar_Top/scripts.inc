@@ -145,7 +145,9 @@ SkyPillar_Top_EventScript_Zinnia::
 	msgbox SkyPillar_Top_Text_Zinnia, MSGBOX_DEFAULT
 	closemessage
 	trainerbattle_no_intro TRAINER_ZINNIA, SkyPillar_Top_Text_ZinniaDefeat
-	msgbox SkyPillar_Top_Text_ZinniaPostBattle1, MSGBOX_DEFAULT
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, SkyPillar_Top_EventScript_ZinniaPostBattle1Male
+	call_if_eq VAR_RESULT, FEMALE, SkyPillar_Top_EventScript_ZinniaPostBattle1Female
 	applymovement LOCALID_ZINNIA, Common_Movement_FaceRight
 	waitmovement 0
 	msgbox SkyPillar_Top_Text_ZinniaPostBattle2, MSGBOX_DEFAULT
@@ -160,6 +162,14 @@ SkyPillar_Top_EventScript_Zinnia::
 	setflag FLAG_DEFEATED_ZINNIA
 	release
 	end
+
+SkyPillar_Top_EventScript_ZinniaPostBattle1Male::
+	msgbox SkyPillar_Top_Text_ZinniaPostBattle1, MSGBOX_DEFAULT
+	return
+
+SkyPillar_Top_EventScript_ZinniaPostBattle1Female::
+	msgbox SkyPillar_Top_Text_ZinniaPostBattle1Female, MSGBOX_DEFAULT
+	return
 
 SkyPillar_Top_EventScript_Aster::
 	msgbox SkyPillar_Top_Text_Whismur, MSGBOX_NPC
@@ -214,50 +224,60 @@ SkyPillar_Top_Movement_CameraPanDown:
 	step_end
 
 SkyPillar_Top_Text_RayquazaFlewOff:
-	.string "The awakened RAYQUAZA flew off…$"
+	.string "RAYQUAZA ist erwacht und weggeflogen…$"
 
 SkyPillar_Top_Text_Zinnia:
-	.string "RAYQUAZA's purpose is more than just\n"
-	.string "keeping GROUDON and KYOGRE in check…\p"
-	.string "It's to preserve the balance when no\n"
-	.string "one else can.\p"
-	.string "And we believe… one day, something even\n"
-	.string "greater could threaten that balance,\p"
-	.string "something we might not be able to face\n"
-	.string "alone.\p"
-	.string "That's why I'm here… to see if you can\n"
-	.string "stand beside RAYQUAZA, to make sure\l"
-	.string "you're the real deal.\p"
-	.string "So, whaddaya say? Ready to show me\n"
-	.string "what you've got?$"
+	.string "RAYQUAZAs Aufgabe ist mehr, als nur\n"
+	.string "GROUDON und KYOGRE in Schach zu halten…\p"
+	.string "Es bewahrt das Gleichgewicht, wenn es\n"
+	.string "sonst niemand kann.\p"
+	.string "Und wir glauben… Eines Tages könnte\n"
+	.string "etwas noch Größeres dieses\l"
+	.string "Gleichgewicht bedrohen,\p"
+	.string "etwas, dem wir uns vielleicht nicht\n"
+	.string "allein stellen können.\p"
+	.string "Deshalb bin ich hier… Ich will sehen,\n"
+	.string "ob du an RAYQUAZAs Seite stehen\l"
+	.string "kannst und wirklich was taugst.\p"
+	.string "Also, was meinst du? Zeigst du mir,\n"
+	.string "was du draufhast?$"
 
 SkyPillar_Top_Text_ZinniaDefeat:
 	.string "…\n"
-	.string "…I guess… It falls to you now…$"
+	.string "…Ich schätze… Jetzt liegt es an dir…$"
 
 SkyPillar_Top_Text_ZinniaPostBattle1:
-	.string "{PLAYER}, you and RAYQUAZA…\n"
-	.string "together.\p"
-	.string "I am leaving this task to you, our\n"
-	.string "new SUCCESSOR.\p"
-	.string "SUCCESSOR {PLAYER}.\p"
-	.string "You and RAYQUAZA must protect nature…\n"
-	.string "POKéMON… the people…$"
+	.string "{PLAYER}, du und RAYQUAZA…\n"
+	.string "gemeinsam.\p"
+	.string "Ich überlasse diese Aufgabe dir, unserem\n"
+	.string "neuen NACHFOLGER.\p"
+	.string "NACHFOLGER {PLAYER}.\p"
+	.string "Du und RAYQUAZA müsst die Natur…\n"
+	.string "die POKéMON… die Menschen beschützen…$"
+
+SkyPillar_Top_Text_ZinniaPostBattle1Female:
+	.string "{PLAYER}, du und RAYQUAZA…\n"
+	.string "gemeinsam.\p"
+	.string "Ich überlasse diese Aufgabe dir, unserer\n"
+	.string "neuen NACHFOLGERIN.\p"
+	.string "NACHFOLGERIN {PLAYER}.\p"
+	.string "Du und RAYQUAZA müsst die Natur…\n"
+	.string "die POKéMON… die Menschen beschützen…$"
 
 SkyPillar_Top_Text_ZinniaPostBattle2:
-	.string "Ever since I was a little girl, I have\n"
-	.string "always turned my eyes up to the sky.\p"
-	.string "When I was so full of uncertainty\n"
-	.string "that I felt my heart might be crushed\l"
-	.string "by it…$"
+	.string "Schon als kleines Mädchen habe ich\n"
+	.string "immer zum Himmel hinaufgeschaut.\p"
+	.string "Wenn ich so voller Zweifel war, dass\n"
+	.string "ich dachte, mein Herz würde daran\l"
+	.string "zerbrechen…$"
 
 SkyPillar_Top_Text_ZinniaPostBattle3:
-	.string "…I used to look up to the sky like this\n"
-	.string "all the time… Together with ASTER.\p"
-	.string "I think I'll spend some time now trying\n"
-	.string "to find out if it's possible to forge a\l"
-	.string "new beginning for something once lost.\p"
-	.string "Until we meet again…$"
+	.string "…habe ich immer so zum Himmel hinauf-\n"
+	.string "geschaut… Zusammen mit AVELINA.\p"
+	.string "Ich glaube, ich werde jetzt versuchen\n"
+	.string "herauszufinden, ob etwas, das einst\l"
+	.string "verloren ging, neu beginnen kann.\p"
+	.string "Bis wir uns wiedersehen…$"
 
 SkyPillar_Top_Text_Whismur:
-	.string "Mur, Mur!$"
+	.string "Mel, Mel!$"

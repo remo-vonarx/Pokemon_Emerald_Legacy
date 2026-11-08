@@ -59,40 +59,43 @@ ArtisanCave_1F_EventScript_ComeBackWithHeartScale::
 	end
 
 ArtisanCave_1F_Text_ImTheMoveTutor:
-	.string "I'm the EGG MOVE ARTIST.\p"
-	.string "I study moves with an artist's eye,\n"
-	.string "and I sketch them like SMEARGLE.\l"
-	.string "I teach moves meant for newborns.\p"
-	.string "I can gift an EGG move to your POKéMON\n"
-	.string "if you'd like.\p"
-	.string "All for one HEART SCALE.\n"
-	.string "I'm crafting my next masterpiece.$"
+	.string "Ich bin der EI-ATTACKEN-KÜNSTLER.\p"
+	.string "Ich betrachte Attacken mit dem Auge\n"
+	.string "eines Künstlers und zeichne sie wie\l"
+	.string "FARBEAGLE. Ich lehre Attacken, die\l"
+	.string "für Neugeborene gedacht sind.\p"
+	.string "Ich kann deinen POKéMON EI-Attacken\n"
+	.string "schenken, wenn du magst.\p"
+	.string "Alles für eine HERZSCHUPPE.\n"
+	.string "Ich arbeite an meinem nächsten\l"
+	.string "Meisterwerk.$"
 
 ArtisanCave_1F_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! A true HEART SCALE\n"
-	.string "of passion, no less!\p"
-	.string "Let me guess, you want me to\n"
-	.string "sketch a move?$"
+	.string "Oh! Das ist es! Eine echte HERZSCHUPPE\n"
+	.string "der Leidenschaft, nicht weniger!\p"
+	.string "Lass mich raten… Ich soll einem POKéMON\n"
+	.string "eine neue Attacke zeichnen?!?$"
 
 ArtisanCave_1F_Text_TutorWhichMon:
-	.string "Which POKéMON needs an EGG move?$"
+	.string "Welches POKéMON soll eine EI-Attacke\n"
+	.string "lernen?$"
 
 ArtisanCave_1F_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+	.string "Welche Attacke soll ich es lehren?$"
 
 ArtisanCave_1F_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "I haven't mastered that move's art\n"
-	.string "for that POKéMON.$"
+	.string "Tut mir leid…\p"
+	.string "Die Kunst dieser Attacke beherrsche\n"
+	.string "ich für dieses POKéMON noch nicht.$"
 
 ArtisanCave_1F_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one HEART SCALE\n"
-	.string "in exchange.$"
+	.string "{PLAYER} tauscht eine HERZSCHUPPE ein.$"
 
 ArtisanCave_1F_Text_ComeBackWithHeartScale:
-	.string "If your POKéMON need to learn an EGG\n"
-	.string "move, come back with a HEART SCALE.$"
+	.string "Falls deine POKéMON neue EI-Attacken\n"
+	.string "lernen sollen, komm mit einer\l"
+	.string "HERZSCHUPPE wieder.$"
 
 ArtisanCave_1F_Text_CantTeachEgg:
-	.string "Hunh? No move in my sketchbook\n"
-	.string "fits an EGG.$"
+	.string "Bitte? In meinem Skizzenbuch passt\n"
+	.string "keine Attacke zu einem EI.$"

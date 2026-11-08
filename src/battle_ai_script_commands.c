@@ -572,6 +572,22 @@ static u8 ChooseMoveOrAction_Doubles(void)
     return actionOrMoveIndex[gBattlerTarget];
 }
 
+// Cmd_tryswapitems makes Trick fail for the opponent in regular battles and for
+// everyone in the Trainer Hill, so the AI must not waste its turn on the move there.
+static bool32 IsTrickBlocked(u16 move)
+{
+    if (gBattleMoves[move].effect != EFFECT_TRICK)
+        return FALSE;
+    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER_HILL)
+        return TRUE;
+    return GetBattlerSide(sBattler_AI) == B_SIDE_OPPONENT
+        && !(gBattleTypeFlags & (BATTLE_TYPE_LINK
+                               | BATTLE_TYPE_EREADER_TRAINER
+                               | BATTLE_TYPE_FRONTIER
+                               | BATTLE_TYPE_SECRET_BASE
+                               | BATTLE_TYPE_RECORDED_LINK));
+}
+
 static void BattleAI_DoAIProcessing(void)
 {
     while (AI_THINKING_STRUCT->aiState != AIState_FinishedProcessing)
@@ -582,7 +598,8 @@ static void BattleAI_DoAIProcessing(void)
                 break;
             case AIState_SettingUp:
                 gAIScriptPtr = gBattleAI_ScriptsTable[AI_THINKING_STRUCT->aiLogicId]; // set AI ptr to logic ID.
-                if (gBattleMons[sBattler_AI].pp[AI_THINKING_STRUCT->movesetIndex] == 0)
+                if (gBattleMons[sBattler_AI].pp[AI_THINKING_STRUCT->movesetIndex] == 0
+                 || IsTrickBlocked(gBattleMons[sBattler_AI].moves[AI_THINKING_STRUCT->movesetIndex]))
                 {
                     AI_THINKING_STRUCT->moveConsidered = 0;
                 }

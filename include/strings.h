@@ -530,6 +530,8 @@ extern const u8 gText_PokedexRegistration[];
 extern const u8 gText_NumberClear01[];
 extern const u8 gText_5MarksPokemon[];
 extern const u8 gText_UnkHeight[];
+extern const u8 gText_EmptyHeight[];
+extern const u8 gText_EmptyWeight[];
 extern const u8 gText_UnkWeight[];
 extern const u8 gText_HTHeight[];
 extern const u8 gText_WTWeight[];

@@ -39,49 +39,50 @@ RS_MysteryEventsHouse_EventScript_Door::
 	end
 
 RS_MysteryEventsHouse_Text_OldManGreeting:
-	.string "When I was young, I traveled the world\n"
-	.string "as a POKéMON TRAINER.\p"
-	.string "Now that I've become an old buzzard,\n"
-	.string "my only amusement is watching young\l"
-	.string "TRAINERS battle.$"
+	.string "Als ich noch jung war, bin ich als\n"
+	.string "POKéMON-TRAINER durch die Welt\l"
+	.string "gereist.\p"
+	.string "Nun, da ich ein alter Knabe geworden\n"
+	.string "bin, beobachte ich mit Freuden die\l"
+	.string "jungen TRAINER bei ihren Kämpfen.$"
 
 RS_MysteryEventsHouse_Text_DoorIsLocked:
-	.string "The door appears to be locked.$"
+	.string "Diese Tür ist verschlossen.$"
 
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
-	.string "A TRAINER named {STR_VAR_1} is\n"
-	.string "visiting my home.\p"
-	.string "Would you like to challenge\n"
-	.string "{STR_VAR_1}?$"
+	.string "Ein TRAINER namens {STR_VAR_1} ist\n"
+	.string "bei mir zu Besuch.\p"
+	.string "Möchtest du {STR_VAR_1}\n"
+	.string "herausfordern?$"
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
-	.string "You won't battle? I'm disappointed\n"
-	.string "that I can't see you battle…$"
+	.string "Du willst nicht kämpfen? Schade, ich\n"
+	.string "hätte dir gern dabei zugesehen…$"
 
 RS_MysteryEventsHouse_Text_KeepItToA3On3:
-	.string "Oh, good, good!\p"
-	.string "But my house isn't all that sturdy.\p"
-	.string "Could I ask you to keep it down to\n"
-	.string "a 3-on-3 match?$"
+	.string "Oh, gut, gut!\p"
+	.string "Aber mein Haus ist nicht sehr stabil.\p"
+	.string "Könntet ihr euch bitte auf einen\n"
+	.string "Kampf 3 gegen 3 beschränken?$"
 
 RS_MysteryEventsHouse_Text_SaveYourProgress:
-	.string "Before you two battle, you should\n"
-	.string "save your progress.$"
+	.string "Bevor ihr kämpft, solltest du\n"
+	.string "dein Spiel speichern.$"
 
 RS_MysteryEventsHouse_Text_HopeToSeeAGoodMatch:
-	.string "I hope to see a good match!$"
+	.string "Ich hoffe auf einen guten Kampf!$"
 
 RS_MysteryEventsHouse_Text_BattleTie:
-	.string "So, it became a standoff.\p"
-	.string "It was a brilliant match in which\n"
-	.string "neither side conceded a step!$"
+	.string "Es ist also unentschieden ausgegangen.\p"
+	.string "Ein großartiger Kampf, in dem keine\n"
+	.string "Seite einen Schritt zurückgewichen ist!$"
 
 RS_MysteryEventsHouse_Text_BattleWon:
-	.string "That was superlative!\p"
-	.string "Why, it was like seeing myself in\n"
-	.string "my youth again!$"
+	.string "Das war erstklassig!\p"
+	.string "Es war, als würde ich mich selbst\n"
+	.string "in jungen Jahren sehen!$"
 
 RS_MysteryEventsHouse_Text_BattleLost:
-	.string "Ah, too bad for you!\p"
-	.string "But it was a good match.\n"
-	.string "I hope you can win next time.$"
+	.string "Ah, schade für dich!\p"
+	.string "Aber es war ein guter Kampf.\n"
+	.string "Vielleicht gewinnst du nächstes Mal.$"

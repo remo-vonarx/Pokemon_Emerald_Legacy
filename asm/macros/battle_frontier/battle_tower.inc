@@ -53,6 +53,13 @@
 	special CallBattleTowerFunc
 	.endm
 
+	@ Like tower_getopponentintro, for link multi battles, where the text scrolls by itself
+	.macro tower_getopponentintro_link opponent:req
+	setvar VAR_0x8004, BATTLE_TOWER_FUNC_GET_OPPONENT_INTRO_LINK
+	setvar VAR_0x8005, \opponent
+	special CallBattleTowerFunc
+	.endm
+
 	@ Load the parties, gfx, and other data (like Apprentice id) for the multi partner candidates
 	.macro tower_loadpartners
 	setvar VAR_0x8004, BATTLE_TOWER_FUNC_LOAD_PARTNERS

@@ -29,33 +29,35 @@ PacifidlogTown_House5_EventScript_OldMan::
 	end
 
 PacifidlogTown_House5_Text_CantSeeMirageIslandToday:
-	.string "I can't see MIRAGE ISLAND today…$"
+	.string "Ich kann WUNDEREILAND heute\n"
+	.string "nicht sehen…$"
 
 PacifidlogTown_House5_Text_CanSeeMirageIslandToday:
-	.string "Oh! Oh my!\n"
-	.string "I can see MIRAGE ISLAND today!$"
+	.string "Oh! Oh! Heute kann ich WUNDEREILAND\n"
+	.string "sehen!$"
 
 PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
-	.string "MIRAGE ISLAND…\p"
-	.string "It must become visible and invisible\n"
-	.string "depending on the weather conditions\l"
-	.string "that make mirages appear.\p"
-	.string "Or is it really appearing and\n"
-	.string "disappearing?$"
+	.string "WUNDEREILAND…\p"
+	.string "Die Insel ist sichtbar oder nicht\n"
+	.string "sichtbar. Das hängt vom Wetter ab, das\l"
+	.string "Fata Morganen möglich macht oder nicht.\p"
+	.string "Oder verschwindet die Insel\n"
+	.string "tatsächlich manchmal?$"
 
 PacifidlogTown_House5_Text_OldWoman:
-	.string "I heard some people talking about how\n"
-	.string "time doesn't flow the same everywhere.\p"
-	.string "They say clocks can do funny things. I\n"
-	.string "tried staring at my clock once, but\l"
-	.string "nothing happened.$"
+	.string "Ich habe Leute darüber reden hören,\n"
+	.string "dass die Zeit nicht überall gleich\l"
+	.string "vergeht.\p"
+	.string "Angeblich können Uhren seltsame Dinge\n"
+	.string "tun. Ich habe mal lange auf meine Uhr\l"
+	.string "gestarrt, aber es ist nichts passiert.$"
 
 PacifidlogTown_House5_Text_OldMan:
-	.string "The waves are quietest at sunrise…\n"
-	.string "calm at the turn of day… and still again\l"
-	.string "at night fall.\p"
-	.string "It all feels like a peaceful dance,\n"
-	.string "doesn't it?\p"
-	.string "I've always thought MIRAGE ISLAND\n"
-	.string "appears when the day feels at\l"
-	.string "peace.$"
+	.string "Bei Sonnenaufgang sind die Wellen am\n"
+	.string "leisesten… ruhig zur Tageswende… und\l"
+	.string "wieder still bei Einbruch der Nacht.\p"
+	.string "Das alles wirkt wie ein friedlicher\n"
+	.string "Tanz, nicht wahr?\p"
+	.string "Ich habe immer geglaubt, WUNDEREILAND\n"
+	.string "erscheint, wenn der Tag friedlich\l"
+	.string "wirkt.$"

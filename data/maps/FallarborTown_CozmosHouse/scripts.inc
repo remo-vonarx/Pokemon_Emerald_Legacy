@@ -87,27 +87,28 @@ ChangeDeoxysForm_Success:
 	goto ChangeDeoxysForm_End
 
 ChangeDeoxysForm_Text_Beginning:
-	.string "Would you like to see what happens if\n"
-	.string "we expose it to this meteorite?$"
+	.string "Möchtest du sehen, was passiert, wenn\n"
+	.string "wir es diesem METEORITen aussetzen?$"
 
 ChangeDeoxysForm_Text_End:
-	.string "Come back anytime.$"
+	.string "Komm jederzeit wieder.$"
 
 ChangeDeoxysForm_Text_Select:
-	.string "Show me your DEOXYS.$"
+	.string "Zeig mir dein DEOXYS.$"
 
 ChangeDeoxysForm_Text_Success:
-	.string "The experiment was a success!\nYour DEOXYS has transformed!$"
+	.string "Das Experiment war ein Erfolg!\n"
+	.string "Dein DEOXYS hat sich verwandelt!$"
 
 FallarborTown_CozmosHouse_Text_CozmoSurprised:
-	.string "PROF. COZMO: Incredible! You caught\n"
-	.string "DEOXYS, didn't you?\p"
-	.string "I've been studying the METEORITE while\n"
-	.string "you were away, and I think there's a\l"
-	.string "strange connection between it and\l"
-	.string "DEOXYS.\p"
-	.string "Can you feel it? It’s as if they…\n"
-	.string "resonate.$"
+	.string "PROF. KOSMO: Unglaublich! Du hast\n"
+	.string "DEOXYS gefangen, nicht wahr?\p"
+	.string "Ich habe den METEORITen untersucht,\n"
+	.string "während du weg warst, und ich glaube,\l"
+	.string "es gibt eine merkwürdige Verbindung\l"
+	.string "zwischen ihm und DEOXYS.\p"
+	.string "Spürst du das? Es ist, als ob sie…\n"
+	.string "miteinander in Resonanz stünden.$"
 
 EventScript_GotRayquaza::
 	msgbox FallarborTown_CozmosHouse_Text_GotRayquaza, MSGBOX_DEFAULT
@@ -202,89 +203,93 @@ FallarborTown_CozmosHouse_EventScript_CozmoIsHappy::
 	end
 
 FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
-	.string "PROF. COZMO: Oh…\n"
-	.string "I never should have let myself be\l"
-	.string "conned into telling TEAM MAGMA where\l"
-	.string "you can find METEORITES…\p"
-	.string "That METEORITE from METEOR FALLS…\n"
-	.string "It's never going to be mine now…$"
+	.string "PROF. KOSMO: Oh…\n"
+	.string "Ich hätte mich nie dazu verleiten\l"
+	.string "lassen dürfen, TEAM MAGMA zu verraten,\l"
+	.string "wo METEORITen zu finden sind…\p"
+	.string "Der METEORIT von den METEORFÄLLEn…\n"
+	.string "Nun wird er niemals mir gehören…$"
 
 FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt:
 	.string "Oh!\n"
-	.string "Hah?\p"
-	.string "That item…\p"
-	.string "Could it be?\p"
-	.string "Is it the METEORITE that TEAM MAGMA\n"
-	.string "took from METEOR FALLS?\p"
-	.string "Please, may I have it?\p"
-	.string "I'm not asking for it for free.\n"
-	.string "How about in exchange for this TM?$"
+	.string "Oooh?\p"
+	.string "Dieses Item…\p"
+	.string "Kann es sein?\p"
+	.string "Ist das der METEORIT, den TEAM MAGMA\n"
+	.string "aus den METEORFÄLLEn entwendet hat?\p"
+	.string "Bitte, darf ich den haben?\p"
+	.string "Du bekommst auch etwas dafür.\n"
+	.string "Was hältst du von dieser TM?$"
 
 FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
-	.string "PROF. COZMO: This TM, it represents\n"
-	.string "my feeling of gratitude.\l"
-	.string "Please use it!$"
+	.string "PROF. KOSMO: Mit dieser TM möchte ich\n"
+	.string "dir meine Dankbarkeit ausdrücken.\l"
+	.string "Bitte, nimm sie an!$"
 
 FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
-	.string "PROF. COZMO: Oh, I can't believe it.\n"
-	.string "This is really, really great!\p"
-	.string "This is really going to help my research!$"
+	.string "PROF. KOSMO: Oh, ich kann es einfach\n"
+	.string "nicht glauben! Das ist nett! So nett!!!\p"
+	.string "Das wird mir bei meinen Forschungen\n"
+	.string "enorm weiterhelfen!$"
 
 FallarborTown_CozmosHouse_Text_CrushedWithDisappointment:
-	.string "PROF. COZMO: Oh, but…\n"
-	.string "I'm crushed with disappointment…$"
+	.string "PROF. KOSMO: Oh, aber…\n"
+	.string "Das enttäuscht mich jetzt maßlos…$"
 
 FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
-	.string "PROF. COZMO: Please, may I have that\n"
-	.string "METEORITE?\p"
-	.string "I'm not asking for it for free.\n"
-	.string "How about in exchange for this TM?$"
+	.string "PROF. KOSMO: Bitte, darf ich den\n"
+	.string "METEORITen haben?\p"
+	.string "Ich möchte ihn nicht umsonst haben! Wie\n"
+	.string "wäre es mit dieser TM im Tausch dafür?$"
 
 FallarborTown_CozmosHouse_Text_GotRayquaza:
-	.string "PROF. COZMO: Oh my…\n"
-	.string "Is that… RAYQUAZA?!\p"
-	.string "You're truly full of surprises,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "Wait, what's this?\n"
-	.string "The METEORITE… it's reacting…\l"
-	.string "It’s shaking! But why?\p"
-	.string "This has never happened before…\p"
-	.string "Could it be that the presence of\n"
-	.string "RAYQUAZA is triggering something?\p"
-	.string "Hold on…$"
+	.string "PROF. KOSMO: Oh je…\n"
+	.string "Ist das… RAYQUAZA?!\p"
+	.string "Du bist wirklich immer für eine\n"
+	.string "Überraschung gut, {PLAYER}{KUN}.\p"
+	.string "Warte, was ist das?\n"
+	.string "Der METEORIT… Er reagiert…\l"
+	.string "Er bebt! Aber warum?\p"
+	.string "Das ist noch nie passiert…\p"
+	.string "Kann es sein, dass RAYQUAZAs Gegenwart\n"
+	.string "etwas auslöst?\p"
+	.string "Moment…$"
 
 FallarborTown_CozmosHouse_Text_GotRayquaza2:
-	.string "My equipment is picking up seismic\n"
-	.string "activity coming from an area called\l"
-	.string "BIRTH ISLAND.\p"
-	.string "The timing can't be a coincidence…\n"
-	.string "RAYQUAZA’s presence must be connected.\p"
-	.string "Here, take this.$"
+	.string "Meine Geräte messen seismische\n"
+	.string "Aktivität aus einem Gebiet namens\l"
+	.string "ENTSTEHUNGSINSEL.\p"
+	.string "Der Zeitpunkt kann kein Zufall sein…\n"
+	.string "RAYQUAZAs Gegenwart muss damit zu\l"
+	.string "tun haben.\p"
+	.string "Hier, nimm das.$"
 
 FallarborTown_CozmosHouse_Text_GotRayquaza3:
-	.string "This TICKET should allow you to reach\n"
-	.string "BIRTH ISLAND. You can use it at\l"
-	.string "LILYCOVE CITY port.\p"
-	.string "Please, {PLAYER}{KUN},\n"
-	.string "investigate this for me!\p"
-	.string "We may be on the verge of a\n"
-	.string "groundbreaking discovery!$"
+	.string "Dieses TICKET sollte dich zur\n"
+	.string "ENTSTEHUNGSINSEL bringen. Du kannst\l"
+	.string "es am Hafen von SEEGRASULB CITY\l"
+	.string "einsetzen.\p"
+	.string "Bitte, {PLAYER}{KUN},\n"
+	.string "untersuche das für mich!\p"
+	.string "Wir stehen vielleicht kurz vor einer\n"
+	.string "bahnbrechenden Entdeckung!$"
 
 FallarborTown_CozmosHouse_Text_AuroraTicketBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "Oh, es tut mir leid, {PLAYER}! Die\n"
+	.string "BASIS-ITEM-TASCHE in deinem\l"
+	.string "BEUTEL ist voll.\l"
+	.string "Lagere etwas auf deinem PC und\l"
+	.string "komme anschließend zurück.$"
 
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
-	.string "PROF. COZMO went off to METEOR FALLS\n"
-	.string "on ROUTE 114 with some people from\l"
-	.string "TEAM MAGMA.$"
+	.string "PROF. KOSMO ist unterwegs zu\n"
+	.string "METEORFÄLLE an der ROUTE 114. Einige\l"
+	.string "Leute von TEAM MAGMA begleiten ihn.$"
 
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
-	.string "Poor PROF. COZMO…\n"
-	.string "He's so depressed… I feel sorry for him.$"
+	.string "Armer PROF. KOSMO…\n"
+	.string "Er ist so deprimiert… Er tut mir leid.$"
 
 FallarborTown_CozmosHouse_Text_CozmoIsSoHappy:
-	.string "Look at PROF. COZMO…\n"
-	.string "He's so happy! I think it's cute.$"
+	.string "Schau dir nur PROF. KOSMO an…\n"
+	.string "Er ist so glücklich! Richtig niedlich.$"

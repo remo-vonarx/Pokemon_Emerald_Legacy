@@ -82,41 +82,44 @@ EverGrandeCity_GlaciasRoom_EventScript_RematchDefeated::
 	end
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
-	.string "Welcome, my name is GLACIA\n"
-	.string "of the ELITE FOUR.\p"
-	.string "I've traveled from afar to HOENN\n"
-	.string "so that I may hone my ice skills.\p"
-	.string "But all I have seen are challenges by\n"
-	.string "weak TRAINERS and their POKéMON.\p"
-	.string "What about you?\p"
-	.string "It would please me to no end if I could\n"
-	.string "go all out against you!$"
+	.string "Willkommen. Mein Name ist FROSINA\n"
+	.string "von den TOP VIER.\p"
+	.string "Ich bin von weit her nach HOENN gereist,\n"
+	.string "um meine eisigen Talente zu trainieren.\p"
+	.string "Aber bisher haben mich nur lausige\n"
+	.string "TRAINER mit noch lausigeren POKéMON\l"
+	.string "herausgefordert.\p"
+	.string "Wie sieht es mit dir aus?\p"
+	.string "Es würde mich überaus freuen, wenn du\n"
+	.string "mich zwingst, alles zu geben!$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat:
-	.string "You and your POKéMON…\n"
-	.string "How hot your spirits burn!\p"
-	.string "The all-consuming heat overwhelms.\p"
-	.string "It's no surprise that my icy skills\n"
-	.string "failed to harm you.$"
+	.string "Du und deine POKéMON…\n"
+	.string "Euer Zusammenhalt verbrennt alles!\p"
+	.string "Diese Hitze besiegt jeden.\p"
+	.string "Kein Wunder, dass mein eisiges Talent\n"
+	.string "dahinschmolz und dir nicht schadete.$"
 
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
-	.string "Advance to the next room.\p"
-	.string "And there, confirm the truly fearsome\n"
-	.string "side of the POKéMON LEAGUE.$"
+	.string "Geh weiter in den nächsten Raum.\p"
+	.string "Und dort wirst du die schrecklichste\n"
+	.string "Seite der POKéMON LIGA kennen lernen.$"
 
 EverGrandeCity_GlaciasRoom_Text_RematchIntroSpeech:
-	.string "GLACIA: Welcome back, CHAMPION.\p"
-	.string "I've honed my ICE-type skills further,\n"
-	.string "seeking a real challenge.\p"
-	.string "Will you bring the heat again? Let us\n"
-	.string "see if you can melt my resolve!$"
+	.string "FROSINA: Willkommen zurück, CHAMP.\p"
+	.string "Ich habe mein Können mit EIS-POKéMON\n"
+	.string "weiter verfeinert und suche eine echte\l"
+	.string "Herausforderung.\p"
+	.string "Bringst du wieder die Hitze mit? Mal\n"
+	.string "sehen, ob du meine Entschlossenheit\l"
+	.string "schmelzen kannst!$"
 
 EverGrandeCity_GlaciasRoom_Text_RematchDefeat:
-	.string "That fire in you burns even hotter now.\n"
-	.string "My ice simply couldn't hold out.$"
+	.string "Das Feuer in dir brennt nun noch heißer.\n"
+	.string "Mein Eis konnte nicht standhalten.$"
 
 EverGrandeCity_GlaciasRoom_Text_RematchPostBattleSpeech:
-	.string "You've proven your strength once more.\n"
-	.string "Advance with pride, CHAMPION.\p"
-	.string "You'll need every ounce of strength for\n"
-	.string "WALLACE's challenge.$"
+	.string "Du hast deine Stärke erneut bewiesen.\n"
+	.string "Geh mit Stolz weiter, CHAMP.\p"
+	.string "Du wirst jedes Quäntchen Stärke für\n"
+	.string "WASSILIs Herausforderung brauchen.$"

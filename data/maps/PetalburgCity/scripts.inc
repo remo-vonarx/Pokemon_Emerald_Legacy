@@ -185,65 +185,75 @@ PetalburgCity_Text_Hello:
 	.string "Hey, {PLAYER}{KUN}!$"
 
 PetalburgCity_Text_RivalWeMadeIt:
-	.string "Well, we made it!\n"
-	.string "The PETALBURG CITY GYM!\p"
-	.string "It feels like just yesterday we started\n"
-	.string "our journey…\p"
-	.string "But look how far we've come,\n"
-	.string "{PLAYER}{KUN}!\p"
-	.string "I think you're ready for this challenge.\n"
-	.string "Good luck taking on your DAD!\p"
-	.string "I'm going to swing by home first,\n"
-	.string "before I take on the GYM myself.\p"
-	.string "Catch you later, {PLAYER}{KUN}!\n"
-	.string "Let's both give it our all!$"
+	.string "Na, wir haben es geschafft!\n"
+	.string "Die ARENA von BLÜTENBURG CITY!\p"
+	.string "Es kommt mir vor, als hätten wir unsere\n"
+	.string "Reise erst gestern begonnen…\p"
+	.string "Aber sieh nur, wie weit wir gekommen\n"
+	.string "sind, {PLAYER}{KUN}!\p"
+	.string "Ich glaube, du bist bereit für diese\n"
+	.string "Herausforderung. Viel Glück gegen\l"
+	.string "deinen VATER!\p"
+	.string "Ich schaue erst noch zu Hause vorbei,\n"
+	.string "bevor ich selbst die ARENA\l"
+	.string "herausfordere.\p"
+	.string "Bis später, {PLAYER}{KUN}!\n"
+	.string "Geben wir beide unser Bestes!$"
 
 PetalburgCity_Text_WallyWantsToBattle:
-	.string "I didn't expect to see you here…\p"
-	.string "I was on my way back to MAUVILLE,\n"
-	.string "but I realized I left my medicine at\l"
-	.string "home.\p"
-	.string "{PLAYER}{KUN}, I've been training\n"
-	.string "hard and I think I'm ready for another\l"
-	.string "battle!\p"
-	.string "Will you battle me before you take on\n"
-	.string "the PETALBURG GYM?\p"
-	.string "I want to show you how much I've grown!$"
+	.string "Ich hätte nicht erwartet, dich hier zu\n"
+	.string "sehen…\p"
+	.string "Ich war auf dem Rückweg nach\n"
+	.string "MALVENFROH CITY, aber dann habe ich\l"
+	.string "gemerkt, dass ich meine Medizin zu\l"
+	.string "Hause vergessen habe.\p"
+	.string "{PLAYER}{KUN}, ich habe hart trainiert\n"
+	.string "und glaube, ich bin bereit für einen\l"
+	.string "weiteren Kampf!\p"
+	.string "Kämpfst du gegen mich, bevor du die\n"
+	.string "ARENA von BLÜTENBURG CITY\l"
+	.string "herausforderst?\p"
+	.string "Ich will dir zeigen, wie stark ich\n"
+	.string "geworden bin!$"
 
 PetalburgCity_Text_WallyAccept:
-	.string "Great! Thanks, {PLAYER}{KUN}! I'm excited\n"
-	.string "to see how much we’ve both grown!\p"
-	.string "Here I come!$"
+	.string "Toll! Danke, {PLAYER}{KUN}! Ich bin\n"
+	.string "gespannt, wie stark wir beide geworden\l"
+	.string "sind!\p"
+	.string "Jetzt komme ich!$"
 
 PetalburgCity_Text_WallyWaitInHouse:
-	.string "Oh, that’s okay!\p"
-	.string "Good luck with the GYM, {PLAYER}{KUN}!\n"
-	.string "I know you can do it!$"
+	.string "Oh, das ist schon in Ordnung!\p"
+	.string "Viel Glück in der ARENA, {PLAYER}{KUN}!\n"
+	.string "Ich weiß, dass du es schaffen kannst!$"
 
 PetalburgCity_Text_WallyDefeat:
-    .string "I’ve still got a lot to learn…$"
+    .string "Ich muss noch viel lernen…$"
 
 PetalburgCity_Text_WallyPostBattle:
-    .string "You’re still amazing, {PLAYER}{KUN}!\n"
-    .string "I’ll keep getting stronger. Maybe next\l"
-	.string "time.\p"
-    .string "Good luck with your GYM battle!$"
+    .string "Du bist immer noch großartig,\n"
+    .string "{PLAYER}{KUN}! Ich werde weiter stärker\l"
+    .string "werden. Vielleicht klappt es nächstes\l"
+    .string "Mal.\p"
+    .string "Viel Glück bei deinem Kampf in der\n"
+    .string "ARENA!$"
 
 PetalburgCity_Text_WallyAfterSurf:
-    .string "Hi, {PLAYER}{KUN}! Great job at the GYM!\p"
-    .string "I was just about to head back to\n"
-	.string "MAUVILLE.\p"
-    .string "Would you like to come with me?\n"
-    .string "It would be nice to travel together!$"
+    .string "Hallo, {PLAYER}{KUN}! Das hast du in der\n"
+    .string "ARENA toll gemacht!\p"
+    .string "Ich wollte gerade zurück nach\n"
+    .string "MALVENFROH CITY.\p"
+    .string "Möchtest du mitkommen? Es wäre schön,\n"
+    .string "zusammen zu reisen!$"
 
 PetalburgCity_Text_WallyGoToMauville:
-	.string "Awesome! Let’s go!$"
+	.string "Super! Gehen wir!$"
 
 PetalburgCity_Text_WallyLeaves:
-	.string "That’s okay!\n"
-	.string "Take care, {PLAYER}{KUN}!\p"
-	.string "I’m sure you’ve got more adventures\n"
-	.string "ahead!$"
+	.string "Schon in Ordnung!\n"
+	.string "Pass auf dich auf, {PLAYER}{KUN}!\p"
+	.string "Bestimmt warten noch viele weitere\n"
+	.string "Abenteuer auf dich!$"
 
 PetalburgCity_EventScript_MoveGymBoyToWestEntrance::
 	setobjectxyperm LOCALID_GYM_BOY, 5, 11
@@ -935,63 +945,69 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our WALLY gone?\p"
-	.string "We have to leave for VERDANTURF TOWN\n"
-	.string "very soon…$"
+	.string "Wohin ist unser HEIKO nur gegangen?\p"
+	.string "Wir müssen doch bald nach WIESENFLUR\n"
+	.string "aufbrechen…$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
+	.string "He da! Bist du vielleicht…\n"
+	.string "ein Anfänger unter den TRAINERn?\p"
+	.string "Weißt du, was POKéMON-TRAINER machen,\n"
+	.string "wenn sie in einen neuen Ort kommen?\p"
+	.string "Sie sehen sich als Erstes die ARENA\n"
+	.string "im Ort an.$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
-	.string "See? This is PETALBURG CITY's GYM.$"
+	.string "Schau. Das ist die ARENA von\n"
+	.string "BLÜTENBURG CITY.$"
 
 PetalburgCity_Text_ThisIsGymSign:
-	.string "This is the GYM's sign. Look for it\n"
-	.string "whenever you're looking for a GYM.$"
+	.string "Das ist das Logo der ARENA. Daran\n"
+	.string "kannst du immer eine ARENA erkennen.$"
 
 PetalburgCity_Text_WaterReflection:
-	.string "My face is reflected in the water.\p"
-	.string "It's a shining grin full of hope…\p"
-	.string "Or it could be a look of somber silence\n"
-	.string "struggling with fear…\p"
-	.string "What do you see reflected in your face?$"
+	.string "Mein Gesicht spiegelt sich im Wasser…\p"
+	.string "Ein schimmerndes Lächeln der Hoffnung.\p"
+	.string "Oder ist es der Ausdruck düsterer\n"
+	.string "Stille, an dem die Angst nagt…\p"
+	.string "Was siehst du in deinem Spiegelbild?$"
 
 PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you have six POKéMON.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "Nehmen wir an, du hättest 6 POKéMON.\n"
+	.string "Wenn du jetzt ein weiteres fängst…\p"
+	.string "wird es automatisch in das POKéMON-\n"
+	.string "LAGERUNGS-SYSTEM gesendet.$"
 
 PetalburgCity_Text_GymSign:
-	.string "PETALBURG CITY POKéMON GYM\n"
-	.string "LEADER: NORMAN\l"
-	.string "“A man in pursuit of power!”$"
+	.string "POKéMON ARENA von BLÜTENBURG CITY\n"
+	.string "LEITER: NORMAN\l"
+	.string "“Ein Mann, der nach Stärke strebt!”$"
 
 PetalburgCity_Text_CitySign:
-	.string "PETALBURG CITY\n"
-	.string "“Where people mingle with nature.”$"
+	.string "BLÜTENBURG CITY\n"
+	.string "“Wo Menschen Hand in Hand\l"
+	.string "mit der Natur gehen.”$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "WALLY'S HOUSE$"
+	.string "HEIKOS HAUS$"
 
 PetalburgCity_Text_AreYouATrainer:
-	.string "Excuse me!\p"
-	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a POKéMON TRAINER?$"
+	.string "Entschuldige bitte!\p"
+	.string "Lass mich raten! Deine Kleidung verrät\n"
+	.string "mir, dass du ein TRAINER bist.\l"
+	.string "Habe ich Recht?$"
 
 PetalburgCity_Text_WellMaybeNot:
-	.string "… … … … … …\p"
-	.string "Well, maybe not.\n"
-	.string "Your clothes aren't all that dirty.\p"
-	.string "You're either a rookie TRAINER,\n"
-	.string "or maybe you're just an ordinary kid.$"
+	.string "… … … … …\n"
+	.string "…\p"
+	.string "Nun, vielleicht auch nicht.\n"
+	.string "Deine Kleidung ist noch relativ sauber.\p"
+	.string "Entweder bist du gerade erst TRAINER\n"
+	.string "geworden oder du bist einfach ein ganz\l"
+	.string "normales Kind.$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
-	.string "I'm roaming the land in search of\n"
-	.string "talented TRAINERS.\p"
-	.string "I'm sorry to have taken your time.$"
+	.string "Ich reise durch das Land, immer auf der\n"
+	.string "Suche nach talentierten TRAINERn.\p"
+	.string "Tut mir leid, wenn ich dich aufgehalten\n"
+	.string "habe.$"

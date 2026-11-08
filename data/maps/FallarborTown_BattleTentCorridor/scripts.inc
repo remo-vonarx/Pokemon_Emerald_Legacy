@@ -44,27 +44,28 @@ FallarborTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
-	.string "We do all right in the preliminary round,\n"
-	.string "but we can never win the appeals…\p"
-	.string "Maybe it means I have to watch what\n"
-	.string "other contestants are doing…$"
+	.string "Im ersten Durchlauf läuft es ganz gut,\n"
+	.string "aber im zweiten gewinnen wir nie…\p"
+	.string "Vielleicht muss ich mal darauf achten,\n"
+	.string "was die anderen Kontrahenten machen…$"
 
 @ Unused
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
-	.string "See!\n"
-	.string "My POKéMON won all these RIBBONS!\p"
-	.string "Have your POKéMON earned any RIBBONS?\n"
-	.string "You can check them on your POKéNAV.$"
+	.string "Schau!\n"
+	.string "Mein POKéMON hat all diese BÄNDER\l"
+	.string "gewonnen!\p"
+	.string "Haben deine POKéMON auch BÄNDER?\n"
+	.string "Du kannst sie im POKéNAV ansehen.$"
 
 @ Unused
 FallarborTown_ContestHall_Text_CantWinEverywhere:
-	.string "I can't beat GYM LEADERS…\p"
-	.string "I can't win any CONTESTS…\p"
-	.string "I've been here, there, and everywhere,\n"
-	.string "and it's all for naught…$"
+	.string "Ich kann keine ARENALEITER besiegen…\p"
+	.string "Ich kann keine WETTBEWERBE gewinnen…\p"
+	.string "Ich war schon überall, und alles\n"
+	.string "war umsonst…$"
 
 @ Unused
 FallarborTown_ContestHall_Text_SuperRankStage:
-	.string "POKéMON CONTESTS\n"
-	.string "SUPER RANK STAGE!$"
+	.string "POKéMON-WETTBEWERBE\n"
+	.string "BÜHNE DER SUPER-KLASSE!$"
 

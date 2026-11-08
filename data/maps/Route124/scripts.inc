@@ -111,5 +111,5 @@ DesertUnderpass_EventScript_HelixFossil::
 	end
 
 Route124_Text_HuntersHouse:
-	.string "HUNTER'S HOUSE$"
+	.string "HAUS DES SCHATZTAUCHERS$"
 

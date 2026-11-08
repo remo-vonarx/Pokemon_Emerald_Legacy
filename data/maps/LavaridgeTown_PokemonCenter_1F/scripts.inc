@@ -77,41 +77,42 @@ LavaridgeTown_PokemonCenter_1F_EventScript_RivalWaits:
 	end
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether:
-	.string "I think POKéMON get closer to their\n"
-	.string "TRAINERS if they spend time together.\p"
-	.string "The longer the better.\n"
-	.string "That's what I think.$"
+	.string "Ich denke, die POKéMON fühlen sich\n"
+	.string "ihrem TRAINER mehr verbunden, wenn sie\l"
+	.string "viel Zeit miteinander verbringen.\p"
+	.string "Je länger, desto besser.\n"
+	.string "Das ist meine Meinung.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
-	.string "It's sort of magical how just sitting\n"
-	.string "in a hot-spring pool can invigorate.\p"
-	.string "I wish I could let my POKéMON\n"
-	.string "soak, too.$"
+	.string "Es grenzt an Magie, wie ein Bad in der\n"
+	.string "Heißen Quelle einen stärkt.\p"
+	.string "Ich wünschte, ich könnte meinen\n"
+	.string "POKéMON auch so ein Bad gönnen.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
-	.string "Hohoho! Hey, kid, you can reach\n"
-	.string "the hot springs from here.\p"
-	.string "If POKéMON are getting rest, so too\n"
-	.string "should their TRAINERS.$"
+	.string "Hohoho! Hey, Kindchen, du kannst von\n"
+	.string "hier die Heißen Quellen erreichen.\p"
+	.string "Wenn POKéMON ruhen, sollten sich\n"
+	.string "ihre TRAINER auch ausruhen.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_MayTravelToPetalburg:
-	.string "MAY: I'm headed to PETALBURG'S GYM\n"
-	.string "next…\p"
-	.string "Do you want to go back together?\n"
-	.string "Back to PETALBURG?$"
+	.string "MAIKE: Ich will als Nächstes zur ARENA\n"
+	.string "von BLÜTENBURG CITY…\p"
+	.string "Sollen wir zusammen zurückreisen?\n"
+	.string "Zurück nach BLÜTENBURG CITY?$"
 
 LavaridgeTown_PokemonCenter_1F_Text_BrendanTravelToPetalburg:
-	.string "BRENDAN: I'm headed to PETALBURG'S GYM\n"
-	.string "next…\p"
-	.string "Do you want to go back together?\n"
-	.string "Back to PETALBURG?$"
+	.string "BRIX: Ich will als Nächstes zur ARENA\n"
+	.string "von BLÜTENBURG CITY…\p"
+	.string "Sollen wir zusammen zurückreisen?\n"
+	.string "Zurück nach BLÜTENBURG CITY?$"
 
 LavaridgeTown_PokemonCenter_1F_Text_RivalTravelToPetalburgLeaves:
-	.string "Aye aye!\n"
-	.string "Then let's hit the road!$"
+	.string "Aye, aye!\n"
+	.string "Dann nichts wie los!$"
 
 LavaridgeTown_PokemonCenter_1F_Text_RivalWaits:
-	.string "Oh, that's okay,\p"
-	.string "I'll be here for a while, just in\n"
-	.string "case you change your mind.\p"
-	.string "See you around!$"
+	.string "Oh, das ist okay.\p"
+	.string "Ich bleibe noch eine Weile hier, falls\n"
+	.string "du es dir anders überlegst.\p"
+	.string "Man sieht sich!$"

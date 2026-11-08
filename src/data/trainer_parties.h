@@ -14878,7 +14878,7 @@ static const struct TrainerMon sParty_Smith[] = {
 // Craig / cRz Shadows
 static const struct TrainerMon sParty_Craig[] = {
     {
-    .nickname = _("MEGANIUM"),
+    .nickname = _("MEGANIE"),
     .ivs = BEST_IV_SPREAD,
     .lvl = 70,
     .species = SPECIES_MEGANIUM,
@@ -14918,7 +14918,7 @@ static const struct TrainerMon sParty_Craig[] = {
     .moves = {MOVE_CRUNCH, MOVE_DRAGON_CLAW, MOVE_THUNDERBOLT, MOVE_BRICK_BREAK}
     },
     {
-    .nickname = _("JOLTEON"),
+    .nickname = _("BLITZA"),
     .ivs = BEST_IV_SPREAD_HIDDEN_POWER_ICE,
     .lvl = 70,
     .species = SPECIES_JOLTEON,
@@ -14928,7 +14928,7 @@ static const struct TrainerMon sParty_Craig[] = {
     .moves = {MOVE_THUNDERBOLT, MOVE_HELPING_HAND, MOVE_SHADOW_BALL, MOVE_HIDDEN_POWER}
     },
     {
-    .nickname = _("FURBALL"),
+    .nickname = _("FELLKNÄUEL"),
     .ivs = BEST_IV_SPREAD,
     .lvl = 70,
     .species = SPECIES_ARCANINE,
@@ -14952,7 +14952,7 @@ static const struct TrainerMon sParty_Weebra[] = {
     .moves = {MOVE_RAIN_DANCE, MOVE_THUNDER, MOVE_SECRET_POWER, MOVE_ICE_PUNCH}
     },
     {
-    .nickname = _("LUDICOLO"),
+    .nickname = _("KAPPALORES"),
     .ivs = BEST_IV_SPREAD,
     .lvl = 70,
     .species = SPECIES_LUDICOLO,

@@ -37,7 +37,7 @@ EXE :=
 endif
 
 TITLE       := POKEMON EMER
-GAME_CODE   := BPEE
+GAME_CODE   := BPED
 MAKER_CODE  := 01
 REVISION    := 0
 MODERN      ?= 0
@@ -415,6 +415,10 @@ $(OBJ_DIR)/ld_script.ld: $(LD_SCRIPT) $(LD_SCRIPT_DEPS)
 	cd $(OBJ_DIR) && sed "s#tools/#../../tools/#g" ../../$(LD_SCRIPT) > ld_script.ld
 
 LDFLAGS = -Map ../../$(MAP)
+# Newer binutils warn about the ROM's load segment, which is how a GBA ROM is laid out
+ifneq (,$(shell $(LD) --help 2>/dev/null | grep -- --no-warn-rwx-segments))
+LDFLAGS += --no-warn-rwx-segments
+endif
 $(ELF): $(OBJ_DIR)/ld_script.ld $(OBJS) libagbsyscall
 	@echo "cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ld_script.ld -o ../../$@ <objects> <lib>"
 	@cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ld_script.ld --print-memory-usage -o ../../$@ $(OBJS_REL) $(LIB) | cat
